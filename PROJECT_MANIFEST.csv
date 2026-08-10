@@ -3,7 +3,7 @@
 .gitattributes,120,runtime/script/config
 .gitignore,73,runtime/script/config
 NOTICE.md,776,documentation
-README.md,6173,documentation
+README.md,5535,documentation
 SECURITY.md,531,documentation
 cypher/bootstrap/00_constraints.cypher,597,Neo4j bootstrap/query
 cypher/bootstrap/01_load_domains.cypher,356,Neo4j bootstrap/query

@@ -77,18 +77,7 @@ MATCH (o:Object) RETURN count(o) AS objects;
 MATCH (:Object)-[:INSTANCE_OF]->(:Interface) RETURN count(*) AS instanceOf;
 ```
 
-## 3. Browser 발표 순서
-
-1. `cypher/browser/01_reference_hierarchy.cypher` — Object → Interface → Domain
-2. `cypher/browser/02_interface_official.cypher` — 공식 EXTENDS_TO와 논리적 무방향 LINK
-3. `cypher/browser/03_interface_semantic.cypher` — LINK 의미화 predicate
-4. `cypher/browser/04_candidate_relations.cypher` — Interface rule 기반 Object 관계 후보
-5. `cypher/browser/05_actual_vs_candidate.cypher` — 후보와 실제 실증 관계 비교
-6. `cypher/scenarios/s01.cypher` ~ `s04.cypher` — 실증 사례
-
-상세한 설명은 [`docs/BROWSER_GUIDE.md`](docs/BROWSER_GUIDE.md)를 참고하세요.
-
-## 4. 프로젝트 구조
+## 3. 프로젝트 구조
 
 ```text
 defense-osdk-neo4j-reference-demo/
@@ -118,7 +107,7 @@ defense-osdk-neo4j-reference-demo/
 └── scripts/
 ```
 
-## 5. 데이터 모델 예시
+## 4. 데이터 모델 예시
 
 ### Domain / Interface
 
@@ -165,7 +154,7 @@ Object:     표적화 검토 T-101 ──TARGETS_ENTITY──> 미식별 군용�
 
 Interface semantic relation은 가능한 관계를 설명하는 규칙이고, Object edge는 합성 시나리오에서 실제로 선택한 사실입니다.
 
-## 6. 실증 시나리오
+## 5. 실증 시나리오
 
 - **S01 복합감시 정보융합 → 표적검토**: IMINT/SIGINT/Intelligence가 동일 관심대상을 설명하고 Target으로 연결
 - **S02 표적화 계획 → 모의 교전 → 평가**: Target, Effect Solution, Engagement, Assessment 연결
@@ -174,7 +163,7 @@ Interface semantic relation은 가능한 관계를 설명하는 규칙이고, Ob
 
 상세 설명: [`docs/SCENARIOS.md`](docs/SCENARIOS.md)
 
-## 7. 주의사항
+## 6. 주의사항
 
 - 실제 한국군 데이터가 아니다.
 - 실제 Gotham 고객 환경의 내부 데이터 모델과 1:1 대응을 주장하지 않는다.
