@@ -1,0 +1,83 @@
+﻿relation_id,source_interface_id,source_interface_en,relation_type,target_interface_id,target_interface_en,directionality,description_ko,official,source_basis
+IR-001,IF-018,Intelligence Report,EXTENDS_TO,IF-002,Report,directed_child_to_parent,정보보고서는 보고서의 세부 유형이다.,true,Defense OSDK public relationship
+IR-002,IF-033,Materiel Change Event,EXTENDS_TO,IF-003,Report Observation,directed_child_to_parent,물자 변경 이벤트는 보고서 관측 항목의 세부 유형이다.,true,Defense OSDK public relationship
+IR-003,IF-034,Materiel Status Event,EXTENDS_TO,IF-003,Report Observation,directed_child_to_parent,물자 상태 이벤트는 보고서 관측 항목의 세부 유형이다.,true,Defense OSDK public relationship
+IR-004,IF-005,Defense Geotemporal Observation,EXTENDS_TO,IF-PB-001,Geotemporal Observation,directed_child_to_parent,국방 시공간 관측은 플랫폼 범용 시공간 관측의 세부 유형이다.,true,Defense OSDK public relationship
+IR-005,IF-004,Defense Tracked Entity,EXTENDS_TO,IF-PB-002,Tracked Entity,directed_child_to_parent,국방 추적 객체는 플랫폼 범용 추적 객체의 세부 유형이다.,true,Defense OSDK public relationship
+IR-006,IF-002,Report,LINK,IF-003,Report Observation,conceptually_undirected,한 보고서에 어떤 관측 항목이 들어 있는지 나타낸다.,true,Defense OSDK public relationship
+IR-007,IF-006,Named Location,LINK,IF-035,Materiel Requirement,conceptually_undirected,"물자 요구와 관련된 명명 위치를 연결한다. 요구·수령 지점일 수 있으나, 공개 관계만으로 단순한 배송 목적지라고 단정하기는 어렵다.",true,Defense OSDK public relationship
+IR-008,IF-006,Named Location,LINK,IF-033,Materiel Change Event,conceptually_undirected,물자 변동이 발생한 위치를 나타낸다.,true,Defense OSDK public relationship
+IR-009,IF-006,Named Location,LINK,IF-034,Materiel Status Event,conceptually_undirected,물자 상태를 확인한 위치를 나타낸다.,true,Defense OSDK public relationship
+IR-010,IF-041,Targetable Entity,EXTENDS_TO,IF-008,Intelligence Subject,directed_child_to_parent,표적화 가능 실체는 정보수집 대상의 세부 유형이다.,true,Defense OSDK public relationship
+IR-011,IF-012,OPIR,EXTENDS_TO,IF-011,GEOINT,directed_child_to_parent,지속 적외선 정보는 지리공간정보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-012,IF-016,ELINT,EXTENDS_TO,IF-015,SIGINT,directed_child_to_parent,전자정보는 신호정보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-013,IF-011,GEOINT,EXTENDS_TO,IF-007,Intelligence,directed_child_to_parent,지리공간정보는 정보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-014,IF-010,OSINT,EXTENDS_TO,IF-007,Intelligence,directed_child_to_parent,공개출처정보는 정보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-015,IF-014,MTI,EXTENDS_TO,IF-011,GEOINT,directed_child_to_parent,이동표적지시 정보는 지리공간정보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-016,IF-013,IMINT,EXTENDS_TO,IF-011,GEOINT,directed_child_to_parent,영상정보는 지리공간정보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-017,IF-017,COMINT,EXTENDS_TO,IF-015,SIGINT,directed_child_to_parent,통신정보는 신호정보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-018,IF-015,SIGINT,EXTENDS_TO,IF-007,Intelligence,directed_child_to_parent,신호정보는 정보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-019,IF-007,Intelligence,LINK,IF-008,Intelligence Subject,conceptually_undirected,이 정보가 누구 또는 무엇에 관한 것인지 나타낸다.,true,Defense OSDK public relationship
+IR-020,IF-007,Intelligence,LINK,IF-043,Change Assessment,conceptually_undirected,변화 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,true,Defense OSDK public relationship
+IR-021,IF-007,Intelligence,LINK,IF-009,Intelligence Producer,conceptually_undirected,이 정보를 누가 또는 어떤 센서가 만들었는지 나타낸다.,true,Defense OSDK public relationship
+IR-022,IF-007,Intelligence,LINK,IF-044,Functional Assessment,conceptually_undirected,기능 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,true,Defense OSDK public relationship
+IR-023,IF-007,Intelligence,LINK,IF-045,Collateral Damage Assessment,conceptually_undirected,부수피해 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,true,Defense OSDK public relationship
+IR-024,IF-048,Engagement,EXTENDS_TO,IF-019,Operation,directed_child_to_parent,교전은 작전의 세부 유형이다.,true,Defense OSDK public relationship
+IR-025,IF-059,Targeting Operation,EXTENDS_TO,IF-019,Operation,directed_child_to_parent,표적화 작전은 작전의 세부 유형이다.,true,Defense OSDK public relationship
+IR-026,IF-019,Operation,LINK,IF-019,Operation,conceptually_undirected,Operation 사이의 상위–하위 작전 구조를 나타낸다. 상세 정의에는 Parent Operation과 Child Operation 관계가 제시된다.,true,Defense OSDK public relationship
+IR-027,IF-019,Operation,LINK,IF-024,Unit,conceptually_undirected,Operation과 이를 수행하거나 담당하는 Unit을 연결한다. 공개 요약만으로 세부 link property 명칭까지는 확정하기 어렵다.,true,Defense OSDK public relationship
+IR-028,IF-019,Operation,LINK,IF-027,Unit Hierarchy,conceptually_undirected,작전 당시 적용된 부대 편제를 나타낸다.,true,Defense OSDK public relationship
+IR-029,IF-030,Ammunition Type,EXTENDS_TO,IF-029,Materiel Type,directed_child_to_parent,탄약 유형은 물자 유형의 세부 유형이다.,true,Defense OSDK public relationship
+IR-030,IF-031,Equipment Type,EXTENDS_TO,IF-029,Materiel Type,directed_child_to_parent,장비 유형은 물자 유형의 세부 유형이다.,true,Defense OSDK public relationship
+IR-031,IF-024,Unit,EXTENDS_TO,IF-020,Organization,directed_child_to_parent,부대는 조직의 세부 유형이다.,true,Defense OSDK public relationship
+IR-032,IF-028,Unit Type,LINK,IF-024,Unit,conceptually_undirected,부대를 해당 부대 유형으로 분류한다.,true,Defense OSDK public relationship
+IR-033,IF-030,Ammunition Type,LINK,IF-053,Attack Guidance,conceptually_undirected,공격지침에서 사용할 수 있는 탄약을 나타낸다.,true,Defense OSDK public relationship
+IR-034,IF-020,Organization,LINK,IF-021,Organization Hierarchy Node Relationship,conceptually_undirected,조직 계층 관계 객체가 부모 조직과 자식 조직을 각각 참조한다. 하나의 pair로는 두 역할이 합쳐져 보인다.,true,Defense OSDK public relationship
+IR-035,IF-020,Organization,LINK,IF-033,Materiel Change Event,conceptually_undirected,어느 조직의 물자 변경 기록인지 나타낸다.,true,Defense OSDK public relationship
+IR-036,IF-020,Organization,LINK,IF-034,Materiel Status Event,conceptually_undirected,어느 조직의 물자 상태 기록인지 나타낸다.,true,Defense OSDK public relationship
+IR-037,IF-020,Organization,LINK,IF-035,Materiel Requirement,conceptually_undirected,어느 조직이 물자를 요청했는지 나타낸다.,true,Defense OSDK public relationship
+IR-038,IF-030,Ammunition Type,LINK,IF-055,Target Selection Standard,conceptually_undirected,"Target Selection Standard와 관련 Ammunition Type을 연결한다. ""이 기준에서 사용할 탄약""으로 단정하기보다 적용 맥락의 탄약 유형으로 보는 편이 안전하다.",true,Defense OSDK public relationship
+IR-039,IF-030,Ammunition Type,LINK,IF-062,Aimpoint Weapon Employment,conceptually_undirected,조준점 공격에 사용할 탄약을 나타낸다.,true,Defense OSDK public relationship
+IR-040,IF-021,Organization Hierarchy Node Relationship,LINK,IF-022,Organization Hierarchy Node Relationship Type,conceptually_undirected,조직 사이 관계가 지휘·배속 중 무엇인지 표시한다.,true,Defense OSDK public relationship
+IR-041,IF-021,Organization Hierarchy Node Relationship,LINK,IF-023,Organization Hierarchy,conceptually_undirected,이 조직 관계가 어느 조직 계층에 속하는지 나타낸다.,true,Defense OSDK public relationship
+IR-042,IF-029,Materiel Type,LINK,IF-035,Materiel Requirement,conceptually_undirected,어떤 물자가 필요한지 나타낸다.,true,Defense OSDK public relationship
+IR-043,IF-027,Unit Hierarchy,LINK,IF-025,Unit Hierarchy Node Relationship,conceptually_undirected,이 부대 관계가 어느 부대 계층에 속하는지 나타낸다.,true,Defense OSDK public relationship
+IR-044,IF-025,Unit Hierarchy Node Relationship,LINK,IF-026,Unit Hierarchy Node Relationship Type,conceptually_undirected,부대 사이 관계가 지휘·배속 중 무엇인지 표시한다.,true,Defense OSDK public relationship
+IR-045,IF-025,Unit Hierarchy Node Relationship,LINK,IF-024,Unit,conceptually_undirected,부대 계층 관계 객체가 부모 Unit과 자식 Unit을 각각 참조한다. 하나의 pair로는 두 역할이 합쳐져 보인다.,true,Defense OSDK public relationship
+IR-046,IF-024,Unit,LINK,IF-049,"Fire Support Coordination Measure, FSCM",conceptually_undirected,"FSCM과 관련 Unit을 연결한다. 상세 정의상 소유·조정·면제 Unit 등 서로 다른 역할이 존재하므로 단순히 ""관리 부대"" 하나로 축약하면 정보가 손실된다.",true,Defense OSDK public relationship
+IR-047,IF-024,Unit,LINK,IF-057,Target Engagement Authority,conceptually_undirected,Target Engagement Authority의 소유 부대(Owning Unit)를 나타낸다. 특정 개별 Target의 교전 권한이라고 한정하는 설명은 부정확하다.,true,Defense OSDK public relationship
+IR-048,IF-029,Materiel Type,LINK,IF-033,Materiel Change Event,conceptually_undirected,어떤 물자의 수량·상태가 바뀌었는지 나타낸다.,true,Defense OSDK public relationship
+IR-049,IF-029,Materiel Type,LINK,IF-034,Materiel Status Event,conceptually_undirected,어떤 물자의 현재 상태인지 나타낸다.,true,Defense OSDK public relationship
+IR-050,IF-039,Geometry-Based Collateral Concern Candidate,EXTENDS_TO,IF-037,Collateral Concern Candidate,directed_child_to_parent,도형 기반 부수피해 우려 후보는 부수피해 우려 후보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-051,IF-038,Point-Based Collateral Concern Candidate,EXTENDS_TO,IF-037,Collateral Concern Candidate,directed_child_to_parent,점 기반 부수피해 우려 후보는 부수피해 우려 후보의 세부 유형이다.,true,Defense OSDK public relationship
+IR-052,IF-062,Aimpoint Weapon Employment,EXTENDS_TO,IF-061,Effector Employment,directed_child_to_parent,조준점 기반 무장 운용은 효과수단 운용의 세부 유형이다.,true,Defense OSDK public relationship
+IR-053,IF-048,Engagement,LINK,IF-042,Target,conceptually_undirected,어떤 표적화 과업을 실제 교전으로 수행했는지 나타낸다.,true,Defense OSDK public relationship
+IR-054,IF-048,Engagement,LINK,IF-043,Change Assessment,conceptually_undirected,교전 뒤 표적이 얼마나 변했는지 평가한 결과를 붙인다.,true,Defense OSDK public relationship
+IR-055,IF-048,Engagement,LINK,IF-044,Functional Assessment,conceptually_undirected,교전 뒤 표적 기능이 얼마나 남았는지 평가한 결과를 붙인다.,true,Defense OSDK public relationship
+IR-056,IF-048,Engagement,LINK,IF-045,Collateral Damage Assessment,conceptually_undirected,교전으로 발생한 부수피해 평가 결과를 붙인다.,true,Defense OSDK public relationship
+IR-057,IF-048,Engagement,LINK,IF-046,Munition Effectiveness Assessment,conceptually_undirected,사용한 탄약이 얼마나 효과적이었는지 평가한 결과를 붙인다.,true,Defense OSDK public relationship
+IR-058,IF-048,Engagement,LINK,IF-047,Serviced Assessment,conceptually_undirected,표적에 필요한 조치가 끝났는지 평가한 결과를 붙인다.,true,Defense OSDK public relationship
+IR-059,IF-053,Attack Guidance,LINK,IF-052,Attack Guidance Matrix,conceptually_undirected,여러 공격지침을 하나의 매트릭스로 묶는다.,true,Defense OSDK public relationship
+IR-060,IF-053,Attack Guidance,LINK,IF-056,Targeting Area,conceptually_undirected,이 공격지침을 어느 구역에 적용할지 나타낸다.,true,Defense OSDK public relationship
+IR-061,IF-053,Attack Guidance,LINK,IF-040,Target Type,conceptually_undirected,이 공격지침을 어떤 표적에 적용할지 나타낸다.,true,Defense OSDK public relationship
+IR-062,IF-036,Collateral Concern List,LINK,IF-037,Collateral Concern Candidate,conceptually_undirected,부수피해가 우려되는 후보를 하나의 목록으로 묶는다.,true,Defense OSDK public relationship
+IR-063,IF-036,Collateral Concern List,LINK,IF-058,Collateral Concern Guidance,conceptually_undirected,이 목록을 검토할 때 사용할 지침을 나타낸다.,true,Defense OSDK public relationship
+IR-064,IF-051,Target Priority,LINK,IF-050,"High Payoff Target List, HPTL",conceptually_undirected,High Payoff Target List가 표적 유형별 Target Priority 항목을 포함하는 관계를 나타낸다.,true,Defense OSDK public relationship
+IR-065,IF-051,Target Priority,LINK,IF-056,Targeting Area,conceptually_undirected,이 우선순위를 어느 구역에 적용할지 나타낸다.,true,Defense OSDK public relationship
+IR-066,IF-051,Target Priority,LINK,IF-040,Target Type,conceptually_undirected,어떤 표적 유형을 우선할지 나타낸다.,true,Defense OSDK public relationship
+IR-067,IF-058,Collateral Concern Guidance,LINK,IF-056,Targeting Area,conceptually_undirected,이 지침을 어느 구역에 적용할지 나타낸다.,true,Defense OSDK public relationship
+IR-068,IF-058,Collateral Concern Guidance,LINK,IF-059,Targeting Operation,conceptually_undirected,이 표적화 작전에서 사용할 부수피해 지침을 나타낸다.,true,Defense OSDK public relationship
+IR-069,IF-041,Targetable Entity,LINK,IF-042,Target,conceptually_undirected,어떤 실제 대상을 어떤 표적화 과업이 다루는지 나타낸다.,true,Defense OSDK public relationship
+IR-070,IF-041,Targetable Entity,LINK,IF-040,Target Type,conceptually_undirected,실제 대상을 전차·시설 등 표적 유형으로 분류한다.,true,Defense OSDK public relationship
+IR-071,IF-040,Target Type,LINK,IF-055,Target Selection Standard,conceptually_undirected,이 표적 유형에 어떤 선정 기준을 적용할지 나타낸다.,true,Defense OSDK public relationship
+IR-072,IF-059,Targeting Operation,LINK,IF-042,Target,conceptually_undirected,"Targeting Operation이 관리·포함하는 Target 과업들을 나타낸다. ""작전을 여러 과업으로 나눈다""는 표현보다 포함 관계가 정확하다.",true,Defense OSDK public relationship
+IR-073,IF-059,Targeting Operation,LINK,IF-050,"High Payoff Target List, HPTL",conceptually_undirected,이 작전에서 우선 관리할 고효용 표적 목록을 나타낸다.,true,Defense OSDK public relationship
+IR-074,IF-059,Targeting Operation,LINK,IF-052,Attack Guidance Matrix,conceptually_undirected,이 작전에서 사용할 공격지침 묶음을 나타낸다.,true,Defense OSDK public relationship
+IR-075,IF-059,Targeting Operation,LINK,IF-054,Target Selection Standard Matrix,conceptually_undirected,이 작전에서 사용할 표적 선정 기준 묶음을 나타낸다.,true,Defense OSDK public relationship
+IR-076,IF-059,Targeting Operation,LINK,IF-057,Target Engagement Authority,conceptually_undirected,Targeting Operation에 적용되는 Target Engagement Authority를 연결한다. 실제 승인 주체는 authority의 Owning Unit 등으로 별도 표현된다.,true,Defense OSDK public relationship
+IR-077,IF-059,Targeting Operation,LINK,IF-056,Targeting Area,conceptually_undirected,이 작전이 어느 구역에서 수행되는지 나타낸다.,true,Defense OSDK public relationship
+IR-078,IF-056,Targeting Area,LINK,IF-055,Target Selection Standard,conceptually_undirected,이 구역에서 사용할 표적 선정 기준을 나타낸다.,true,Defense OSDK public relationship
+IR-079,IF-056,Targeting Area,LINK,IF-057,Target Engagement Authority,conceptually_undirected,Target Engagement Authority가 적용되는 Targeting Area를 연결한다. 승인 주체 자체는 Unit 관계에서 표현된다.,true,Defense OSDK public relationship
+IR-080,IF-061,Effector Employment,LINK,IF-060,Target Effect Solution,conceptually_undirected,Target Effect Solution을 구성하는 Effector Employment를 연결한다. 즉 효과 방안과 그 방안을 실현하는 개별 효과수단 운용의 구성 관계다.,true,Defense OSDK public relationship
+IR-081,IF-054,Target Selection Standard Matrix,LINK,IF-055,Target Selection Standard,conceptually_undirected,여러 표적 선정 기준을 하나의 매트릭스로 묶는다.,true,Defense OSDK public relationship
+IR-082,IF-042,Target,LINK,IF-060,Target Effect Solution,conceptually_undirected,Target에 대해 제안되거나 선택된 Target Effect Solution을 연결한다. 상세 구조상 여러 후보 방안과 선택된 1개 방안을 구분할 수 있다.,true,Defense OSDK public relationship

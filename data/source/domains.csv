@@ -1,0 +1,8 @@
+﻿domain_id,name_en,name_ko,domain_kind,reference_scope,official
+DOM-COMMON,Common Interfaces Across Domains,도메인 공통 인터페이스,cross_domain_group,Defense OSDK public reference grouping,true
+DOM-INTELLIGENCE,Intelligence,정보,osdk_domain,Defense OSDK public reference grouping,true
+DOM-MISSION-PLANNING,Mission Planning,임무계획,osdk_domain,Defense OSDK public reference grouping,true
+DOM-ORDER-OF-BATTLE,Order of Battle,전투서열,osdk_domain,Defense OSDK public reference grouping,true
+DOM-SUSTAINMENT,Sustainment,전투지속지원,osdk_domain,Defense OSDK public reference grouping,true
+DOM-TARGETING-FIRES,Targeting and Fires,표적화 및 화력,osdk_domain,Defense OSDK public reference grouping,true
+DOM-PLATFORM-BASE,Platform Base Interfaces,플랫폼 기반 인터페이스,platform_base_group,Defense OSDK-referenced platform base grouping,false

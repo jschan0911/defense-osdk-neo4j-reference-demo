@@ -1,0 +1,49 @@
+﻿path,bytes,purpose
+.env.example,30,runtime/script/config
+.gitattributes,120,runtime/script/config
+.gitignore,73,runtime/script/config
+NOTICE.md,776,documentation
+README.md,10451,documentation
+SECURITY.md,531,documentation
+cypher/bootstrap/00_constraints.cypher,597,Neo4j bootstrap/query
+cypher/bootstrap/01_load_domains.cypher,356,Neo4j bootstrap/query
+cypher/bootstrap/02_load_interfaces.cypher,621,Neo4j bootstrap/query
+cypher/bootstrap/03_load_interface_relations.cypher,1473,Neo4j bootstrap/query
+cypher/bootstrap/04_load_objects.cypher,1329,Neo4j bootstrap/query
+cypher/bootstrap/05_load_object_relations.cypher,715,Neo4j bootstrap/query
+cypher/bootstrap/06_postload_checks.cypher,700,Neo4j bootstrap/query
+cypher/browser/01_reference_hierarchy.cypher,210,Neo4j bootstrap/query
+cypher/browser/02_interface_official.cypher,227,Neo4j bootstrap/query
+cypher/browser/03_interface_semantic.cypher,156,Neo4j bootstrap/query
+cypher/browser/04_candidate_relations.cypher,848,Neo4j bootstrap/query
+cypher/browser/05_actual_vs_candidate.cypher,754,Neo4j bootstrap/query
+cypher/browser/99_validation.cypher,1170,Neo4j bootstrap/query
+cypher/scenarios/s01.cypher,781,Neo4j bootstrap/query
+cypher/scenarios/s02.cypher,706,Neo4j bootstrap/query
+cypher/scenarios/s03.cypher,731,Neo4j bootstrap/query
+cypher/scenarios/s04.cypher,791,Neo4j bootstrap/query
+cypher/validation/02_object_relation_support.cypher,595,Neo4j bootstrap/query
+data/demo/object_properties.csv,39098,synthetic demo data
+data/demo/object_relations.csv,8882,synthetic demo data
+data/demo/objects.csv,11105,synthetic demo data
+data/demo/scenarios.csv,1212,synthetic demo data
+data/reference/interface_relation_review.csv,30066,runtime/script/config
+data/reference/object_relation_example_pool.csv,13782,runtime/script/config
+data/source/domains.csv,880,source/reference data
+data/source/interface_relations_official.csv,17266,source/reference data
+data/source/interface_relations_semantic.csv,16492,source/reference data
+data/source/interfaces.csv,17935,source/reference data
+docker-compose.yml,1486,runtime/script/config
+docs/ARCHITECTURE.md,2121,documentation
+docs/BROWSER_GUIDE.md,1668,documentation
+docs/BUILD_REVIEW.md,950,documentation
+docs/DATA_MODEL.md,1451,documentation
+docs/DECISIONS.md,1789,documentation
+docs/SCENARIOS.md,2499,documentation
+docs/SOURCES.md,948,documentation
+docs/VALIDATION.md,594,documentation
+runtime/logs/.gitkeep,0,runtime/script/config
+scripts/bootstrap.sh,357,runtime/script/config
+scripts/reset.sh,235,runtime/script/config
+scripts/smoke_check.sh,669,runtime/script/config
+scripts/validate_dataset.py,5781,runtime/script/config

@@ -1,0 +1,87 @@
+﻿object_id,name,primary_interface_id,scenario_ids,summary_ko,synthetic
+OBJ-001,가상 중부전선 감시구역 A 전술심볼,IF-001,,군사표준 심볼 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-002,감시상황 일일보고 REP-101,IF-002,S01,보고서 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-003,군수상태 일일보고 REP-102,IF-002,S04,보고서 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-004,미식별 차량 이동 관측 OBS-R101,IF-003,S01,보고서 관측 항목 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-005,추적개체 TRK-101,IF-004,,국방 추적 객체 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-006,시공간 관측 GTO-101,IF-005,,국방 시공간 관측 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-007,가상 중부전선 감시구역 A,IF-006,,명명 위치 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-008,가상 보급집결지 B,IF-006,S04,명명 위치 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-009,가상 분석구역 C,IF-006,,명명 위치 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-010,복합센서 정보판단 INT-101,IF-007,S01,정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-011,복합센서 정보판단 INT-102,IF-007,,정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-012,이상활동 대상군 SUBJ-101,IF-008,S01,정보수집 대상 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-013,가상 합동정보분석체계 PROD-101,IF-009,S01,정보 생산자 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-014,가상 무인기 EO/IR 센서 PROD-102,IF-009,S01,정보 생산자 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-015,공개자료 위협동향 OSINT-101,IF-010,,공개출처정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-016,감시구역 지리공간분석 GEO-101,IF-011,,지리공간정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-017,열원 활동 탐지 OPIR-101,IF-012,,지속 적외선 정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-018,무인기 영상판독 IMINT-101,IF-013,S01,영상정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-019,무인기 영상판독 IMINT-102,IF-013,,영상정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-020,이동표적 항적 MTI-101,IF-014,,이동표적지시 정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-021,미식별 신호 수집 SIGINT-101,IF-015,S01,신호정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-022,미식별 신호 수집 SIGINT-102,IF-015,,신호정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-023,전자 방출원 분석 ELINT-101,IF-016,,전자정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-024,통신 패턴 분석 COMINT-101,IF-017,,통신정보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-025,복합징후 정보보고 IR-101,IF-018,S01,정보보고서 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-026,전자신호 동향 정보보고 IR-102,IF-018,,정보보고서 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-027,가상 접경 감시작전 청명,IF-019,S03,작전 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-028,가상 이상활동 확인작전 청명-1,IF-019,S03,작전 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-029,가상 제1합동감시단,IF-020,S03,조직 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-030,가상 군수지원센터,IF-020,S04,조직 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-031,제1합동감시단-예하조직 지휘관계,IF-021,S03,조직 계층 노드 관계 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-032,작전통제 관계유형,IF-022,S03,조직 계층 관계 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-033,가상 합동감시 조직 지휘구조,IF-023,S03,조직 계층 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-034,가상 제101감시중대,IF-024,S01|S02|S03,부대 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-035,가상 제102정찰소대,IF-024,S02|S03,부대 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-036,가상 제201지원중대,IF-024,S03,부대 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-037,제101감시중대-예하소대 지휘관계,IF-025,S03,부대 계층 노드 관계 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-038,배속 관계유형,IF-026,S03,부대 계층 관계 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-039,가상 감시부대 편제구조,IF-027,S03,부대 계층 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-040,감시중대 유형,IF-028,S03,부대 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-041,감시드론 배터리 팩,IF-029,S04,물자 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-042,전술통신 배터리 팩,IF-029,,물자 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-043,훈련용 모의탄 A형,IF-030,,탄약 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-044,훈련용 모의탄 B형,IF-030,,탄약 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-045,소형 정찰드론 A형,IF-031,,장비 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-046,지상 감시레이더 B형,IF-031,,장비 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-047,가상 감시시설 F-101,IF-032,,시설 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-048,가상 군수시설 F-102,IF-032,,시설 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-049,감시드론 배터리 입고 이벤트,IF-033,S04,물자 변경 이벤트 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-050,감시드론 배터리 재고상태,IF-034,S04,물자 상태 이벤트 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-051,감시드론 배터리 추가소요,IF-035,S04,물자 요구 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-052,가상 감시구역 부수피해 우려목록,IF-036,,부수피해 우려 목록 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-053,민간 영향 가능 대상 C-101,IF-037,,부수피해 우려 후보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-054,가상 민간시설 지점 C-POINT-101,IF-038,,점 기반 부수피해 우려 후보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-055,가상 민간활동 구역 C-AREA-101,IF-039,,도형 기반 부수피해 우려 후보 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-056,이동형 군용차량 유형,IF-040,S02,표적 유형 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-057,미식별 군용차량 A,IF-041,S01|S02,표적화 가능 실체 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-058,이동형 통신차량 B,IF-041,,표적화 가능 실체 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-059,가상 레이더 장비 C,IF-041,,표적화 가능 실체 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-060,표적화 검토과업 T-101,IF-042,S01|S02,표적화 과업 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-061,표적화 검토과업 T-102,IF-042,,표적화 과업 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-062,표적화 검토과업 T-103,IF-042,,표적화 과업 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-063,표적 변화평가 CA-101,IF-043,S02,변화 평가 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-064,표적 기능평가 FA-101,IF-044,S02,기능 평가 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-065,부수피해 평가 CDA-101,IF-045,S02,부수피해 평가 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-066,모의 탄약효과 평가 MEA-101,IF-046,S02,탄약 효과 평가 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-067,표적 조치여부 평가 SA-101,IF-047,S02,표적 조치 여부 평가 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-068,모의 교전 ENG-101,IF-048,S02,교전 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-069,모의 교전 ENG-102,IF-048,,교전 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-070,가상 비사격구역 FSCM-101,IF-049,,화력지원협조수단 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-071,가상 고효용 표적목록 HPTL-101,IF-050,S02,고효용 표적 목록 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-072,이동표적 우선순위 TP-101,IF-051,S02,표적 우선순위 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-073,고정표적 우선순위 TP-102,IF-051,,표적 우선순위 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-074,가상 공격지침 매트릭스 AGM-101,IF-052,,공격지침 매트릭스 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-075,가상 공격지침 AG-101,IF-053,,공격지침 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-076,가상 표적선정 기준 매트릭스 TSSM-101,IF-054,,표적 선정 기준 매트릭스 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-077,가상 이동표적 선정기준 TSS-101,IF-055,,표적 선정 기준 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-078,가상 표적화 구역 TA-101,IF-056,S02,표적화 구역 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-079,모의 교전승인 권한 AUTH-101,IF-057,S02,표적 교전 권한 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-080,가상 부수피해 우려지침 CCG-101,IF-058,S02,부수피해 우려 지침 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-081,가상 표적화 작전 청명-T,IF-059,S01|S02,표적화 작전 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-082,추가감시 중심 효과방안 TES-101,IF-060,S02,표적 효과 방안 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-083,모의 대응수단 검토 방안 TES-102,IF-060,,표적 효과 방안 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-084,추가감시 자산 운용 EE-101,IF-061,S02,효과수단 운용 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-085,모의 효과수단 운용 EE-102,IF-061,,효과수단 운용 Interface를 적용한 한국형 합성 객체 예시.,true
+OBJ-086,모의 조준점 운용 AWE-101,IF-062,,조준점 기반 무장 운용 Interface를 적용한 한국형 합성 객체 예시.,true

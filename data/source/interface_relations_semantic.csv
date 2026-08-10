@@ -1,0 +1,61 @@
+﻿relation_id,source_interface_id,source_interface_en,relation_type,target_interface_id,target_interface_en,relation_name_ko,confidence,derived_from_relation_id,derived_from,official,description_ko,note
+SR-006,IF-002,Report,HAS_OBSERVATION,IF-003,Report Observation,관측 항목 포함,높음,IR-006,LINK,false,한 보고서에 어떤 관측 항목이 들어 있는지 나타낸다.,Report가 여러 Report Observation을 포함/참조
+SR-007,IF-035,Materiel Requirement,HAS_RELATED_LOCATION,IF-006,Named Location,관련 위치,중간,IR-007,LINK,false,"물자 요구와 관련된 명명 위치를 연결한다. 요구·수령 지점일 수 있으나, 공개 관계만으로 단순한 배송 목적지라고 단정하기는 어렵다.",공식 Link만으로 배송 목적지인지 요구/수령 위치인지 세부 역할명은 확정하기 어려움
+SR-008,IF-033,Materiel Change Event,OCCURRED_AT,IF-006,Named Location,발생 위치,높음,IR-008,LINK,false,물자 변동이 발생한 위치를 나타낸다.,변경 이벤트의 위치
+SR-009,IF-034,Materiel Status Event,RECORDED_AT,IF-006,Named Location,상태 기록 위치,높음,IR-009,LINK,false,물자 상태를 확인한 위치를 나타낸다.,상태 이벤트가 관측/기록된 위치
+SR-019,IF-007,Intelligence,ABOUT_SUBJECT,IF-008,Intelligence Subject,정보 대상,높음,IR-019,LINK,false,이 정보가 누구 또는 무엇에 관한 것인지 나타낸다.,Intelligence가 어떤 subject에 관한 정보인지 표현
+SR-020,IF-043,Change Assessment,SUPPORTED_BY_INTELLIGENCE,IF-007,Intelligence,근거 정보,높음,IR-020,LINK,false,변화 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,Assessment가 Intelligence를 근거/지원 정보로 참조하는 방향이 더 자연스러움
+SR-021,IF-007,Intelligence,PRODUCED_BY,IF-009,Intelligence Producer,정보 생산자,높음,IR-021,LINK,false,이 정보를 누가 또는 어떤 센서가 만들었는지 나타낸다.,생산 주체 연결
+SR-022,IF-044,Functional Assessment,SUPPORTED_BY_INTELLIGENCE,IF-007,Intelligence,근거 정보,높음,IR-022,LINK,false,기능 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,Assessment가 Intelligence를 근거/지원 정보로 참조
+SR-023,IF-045,Collateral Damage Assessment,SUPPORTED_BY_INTELLIGENCE,IF-007,Intelligence,근거 정보,높음,IR-023,LINK,false,부수피해 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,Assessment가 Intelligence를 근거/지원 정보로 참조
+SR-026,IF-019,Operation,HAS_SUB_OPERATION,IF-019,Operation,하위 작전,높음,IR-026,LINK,false,Operation 사이의 상위–하위 작전 구조를 나타낸다. 상세 정의에는 Parent Operation과 Child Operation 관계가 제시된다.,상세 정의의 Parent Operation/Child Operation 관계. 역관계 HAS_PARENT_OPERATION 가능
+SR-027,IF-019,Operation,PERFORMED_BY_UNIT,IF-024,Unit,수행/담당 부대,중간,IR-027,LINK,false,Operation과 이를 수행하거나 담당하는 Unit을 연결한다. 공개 요약만으로 세부 link property 명칭까지는 확정하기 어렵다.,공개 요약은 Unit 연결만 확인되므로 실제 property 명칭으로 단정하지 않음
+SR-028,IF-019,Operation,USES_UNIT_HIERARCHY,IF-027,Unit Hierarchy,적용 부대 편제,높음,IR-028,LINK,false,작전 당시 적용된 부대 편제를 나타낸다.,작전 시점의 Unit Hierarchy 연결
+SR-032,IF-024,Unit,HAS_UNIT_TYPE,IF-028,Unit Type,부대 유형,높음,IR-032,LINK,false,부대를 해당 부대 유형으로 분류한다.,Unit의 유형 분류
+SR-033,IF-053,Attack Guidance,ALLOWS_AMMUNITION_TYPE,IF-030,Ammunition Type,허용/관련 탄약 유형,중간,IR-033,LINK,false,공격지침에서 사용할 수 있는 탄약을 나타낸다.,Attack Guidance의 관련 Ammunition Type. 허용의 세부 의미는 추론
+SR-034,IF-021,Organization Hierarchy Node Relationship,INVOLVES_ORGANIZATION,IF-020,Organization,부모/자식 조직,높음,IR-034,LINK,false,조직 계층 관계 객체가 부모 조직과 자식 조직을 각각 참조한다. 하나의 pair로는 두 역할이 합쳐져 보인다.,실제 상세 구현은 HAS_PARENT_ORGANIZATION / HAS_CHILD_ORGANIZATION 두 역할로 분리 권장
+SR-035,IF-033,Materiel Change Event,FOR_ORGANIZATION,IF-020,Organization,대상 조직,높음,IR-035,LINK,false,어느 조직의 물자 변경 기록인지 나타낸다.,조직별 물자 변경 이벤트
+SR-036,IF-034,Materiel Status Event,FOR_ORGANIZATION,IF-020,Organization,대상 조직,높음,IR-036,LINK,false,어느 조직의 물자 상태 기록인지 나타낸다.,조직별 물자 상태 이벤트
+SR-037,IF-035,Materiel Requirement,REQUESTED_BY_ORGANIZATION,IF-020,Organization,요청 조직,높음,IR-037,LINK,false,어느 조직이 물자를 요청했는지 나타낸다.,물자 요구의 요청 주체
+SR-038,IF-055,Target Selection Standard,APPLIES_TO_AMMUNITION_TYPE,IF-030,Ammunition Type,적용 탄약 유형,중간,IR-038,LINK,false,"Target Selection Standard와 관련 Ammunition Type을 연결한다. ""이 기준에서 사용할 탄약""으로 단정하기보다 적용 맥락의 탄약 유형으로 보는 편이 안전하다.",연결 존재는 확실하나 구체적 업무 predicate는 공개 요약만으로 제한적
+SR-039,IF-062,Aimpoint Weapon Employment,USES_AMMUNITION_TYPE,IF-030,Ammunition Type,사용 탄약 유형,높음,IR-039,LINK,false,조준점 공격에 사용할 탄약을 나타낸다.,Aimpoint 운용 계획의 탄약 유형
+SR-040,IF-021,Organization Hierarchy Node Relationship,HAS_RELATIONSHIP_TYPE,IF-022,Organization Hierarchy Node Relationship Type,관계 유형,높음,IR-040,LINK,false,조직 사이 관계가 지휘·배속 중 무엇인지 표시한다.,관계 객체의 유형 분류
+SR-041,IF-021,Organization Hierarchy Node Relationship,PART_OF_ORGANIZATION_HIERARCHY,IF-023,Organization Hierarchy,소속 조직 계층,높음,IR-041,LINK,false,이 조직 관계가 어느 조직 계층에 속하는지 나타낸다.,관계 객체가 어느 hierarchy에 속하는지 표현
+SR-042,IF-035,Materiel Requirement,REQUIRES_MATERIEL_TYPE,IF-029,Materiel Type,요구 물자 유형,높음,IR-042,LINK,false,어떤 물자가 필요한지 나타낸다.,필요 물자 유형
+SR-043,IF-025,Unit Hierarchy Node Relationship,PART_OF_UNIT_HIERARCHY,IF-027,Unit Hierarchy,소속 부대 계층,높음,IR-043,LINK,false,이 부대 관계가 어느 부대 계층에 속하는지 나타낸다.,관계 객체가 어느 Unit Hierarchy에 속하는지 표현
+SR-044,IF-025,Unit Hierarchy Node Relationship,HAS_RELATIONSHIP_TYPE,IF-026,Unit Hierarchy Node Relationship Type,관계 유형,높음,IR-044,LINK,false,부대 사이 관계가 지휘·배속 중 무엇인지 표시한다.,부대 관계 유형 분류
+SR-045,IF-025,Unit Hierarchy Node Relationship,INVOLVES_UNIT,IF-024,Unit,부모/자식 부대,높음,IR-045,LINK,false,부대 계층 관계 객체가 부모 Unit과 자식 Unit을 각각 참조한다. 하나의 pair로는 두 역할이 합쳐져 보인다.,실제 상세 구현은 HAS_PARENT_UNIT / HAS_CHILD_UNIT 두 역할로 분리 권장
+SR-046,IF-049,"Fire Support Coordination Measure, FSCM",HAS_ASSOCIATED_UNIT,IF-024,Unit,관련 부대,중간,IR-046,LINK,false,"FSCM과 관련 Unit을 연결한다. 상세 정의상 소유·조정·면제 Unit 등 서로 다른 역할이 존재하므로 단순히 ""관리 부대"" 하나로 축약하면 정보가 손실된다.","공개 상세에는 소유·조정·면제 Unit 역할이 있어, 실제 구현은 OWNED_BY_UNIT / COORDINATED_BY_UNIT / EXEMPTS_UNIT 등으로 세분 권장"
+SR-047,IF-057,Target Engagement Authority,OWNED_BY_UNIT,IF-024,Unit,권한 소유 부대,높음,IR-047,LINK,false,Target Engagement Authority의 소유 부대(Owning Unit)를 나타낸다. 특정 개별 Target의 교전 권한이라고 한정하는 설명은 부정확하다.,상세 정의에 Owning Unit 1로 명시
+SR-048,IF-033,Materiel Change Event,AFFECTS_MATERIEL_TYPE,IF-029,Materiel Type,변경 대상 물자 유형,높음,IR-048,LINK,false,어떤 물자의 수량·상태가 바뀌었는지 나타낸다.,어떤 물자 유형의 수량/상태 변화인지 표현
+SR-049,IF-034,Materiel Status Event,DESCRIBES_MATERIEL_TYPE,IF-029,Materiel Type,상태 대상 물자 유형,높음,IR-049,LINK,false,어떤 물자의 현재 상태인지 나타낸다.,어떤 물자 유형의 현재 상태인지 표현
+SR-053,IF-048,Engagement,EXECUTES_TARGET,IF-042,Target,표적화 과업 실행,높음,IR-053,LINK,false,어떤 표적화 과업을 실제 교전으로 수행했는지 나타낸다.,Engagement가 특정 Target 과업의 실제 실행 행동
+SR-054,IF-048,Engagement,HAS_CHANGE_ASSESSMENT,IF-043,Change Assessment,변화 평가 결과,높음,IR-054,LINK,false,교전 뒤 표적이 얼마나 변했는지 평가한 결과를 붙인다.,교전 결과 평가
+SR-055,IF-048,Engagement,HAS_FUNCTIONAL_ASSESSMENT,IF-044,Functional Assessment,기능 평가 결과,높음,IR-055,LINK,false,교전 뒤 표적 기능이 얼마나 남았는지 평가한 결과를 붙인다.,교전 결과 평가
+SR-056,IF-048,Engagement,HAS_COLLATERAL_DAMAGE_ASSESSMENT,IF-045,Collateral Damage Assessment,부수피해 평가 결과,높음,IR-056,LINK,false,교전으로 발생한 부수피해 평가 결과를 붙인다.,교전 결과 평가
+SR-057,IF-048,Engagement,HAS_MUNITION_EFFECTIVENESS_ASSESSMENT,IF-046,Munition Effectiveness Assessment,탄약 효과 평가 결과,높음,IR-057,LINK,false,사용한 탄약이 얼마나 효과적이었는지 평가한 결과를 붙인다.,교전 결과 평가
+SR-058,IF-048,Engagement,HAS_SERVICED_ASSESSMENT,IF-047,Serviced Assessment,조치 여부 평가 결과,높음,IR-058,LINK,false,표적에 필요한 조치가 끝났는지 평가한 결과를 붙인다.,교전/표적 조치 여부 평가
+SR-059,IF-052,Attack Guidance Matrix,CONTAINS_ATTACK_GUIDANCE,IF-053,Attack Guidance,공격지침 포함,높음,IR-059,LINK,false,여러 공격지침을 하나의 매트릭스로 묶는다.,Matrix가 Attack Guidance 1..N을 묶음
+SR-060,IF-053,Attack Guidance,APPLIES_TO_TARGETING_AREA,IF-056,Targeting Area,적용 구역,높음,IR-060,LINK,false,이 공격지침을 어느 구역에 적용할지 나타낸다.,공격지침의 적용 구역
+SR-061,IF-053,Attack Guidance,APPLIES_TO_TARGET_TYPE,IF-040,Target Type,적용 표적 유형,높음,IR-061,LINK,false,이 공격지침을 어떤 표적에 적용할지 나타낸다.,공격지침의 대상 표적 유형
+SR-062,IF-036,Collateral Concern List,CONTAINS_COLLATERAL_CONCERN,IF-037,Collateral Concern Candidate,부수피해 우려 후보 포함,높음,IR-062,LINK,false,부수피해가 우려되는 후보를 하나의 목록으로 묶는다.,목록 구성 관계
+SR-063,IF-036,Collateral Concern List,USES_COLLATERAL_GUIDANCE,IF-058,Collateral Concern Guidance,검토 지침,중간,IR-063,LINK,false,이 목록을 검토할 때 사용할 지침을 나타낸다.,공식 Link는 확실. 방향은 목록에서 지침을 사용하는 것으로 해석
+SR-064,IF-050,"High Payoff Target List, HPTL",CONTAINS_TARGET_PRIORITY,IF-051,Target Priority,표적 우선순위 포함,높음,IR-064,LINK,false,High Payoff Target List가 표적 유형별 Target Priority 항목을 포함하는 관계를 나타낸다.,HPTL은 Target Priority 1..N의 집합
+SR-065,IF-051,Target Priority,APPLIES_TO_TARGETING_AREA,IF-056,Targeting Area,적용 구역,높음,IR-065,LINK,false,이 우선순위를 어느 구역에 적용할지 나타낸다.,특정 구역에 적용되는 우선순위
+SR-066,IF-051,Target Priority,PRIORITIZES_TARGET_TYPE,IF-040,Target Type,우선순위 대상 표적 유형,높음,IR-066,LINK,false,어떤 표적 유형을 우선할지 나타낸다.,Target Priority는 Target Type 1을 대상으로 함
+SR-067,IF-058,Collateral Concern Guidance,APPLIES_TO_TARGETING_AREA,IF-056,Targeting Area,적용 구역,높음,IR-067,LINK,false,이 지침을 어느 구역에 적용할지 나타낸다.,부수피해 지침 적용 구역
+SR-068,IF-059,Targeting Operation,USES_COLLATERAL_GUIDANCE,IF-058,Collateral Concern Guidance,부수피해 지침 사용,높음,IR-068,LINK,false,이 표적화 작전에서 사용할 부수피해 지침을 나타낸다.,표적화 작전에 적용되는 guidance
+SR-069,IF-042,Target,TARGETS_ENTITY,IF-041,Targetable Entity,표적화 대상 실체,높음,IR-069,LINK,false,어떤 실제 대상을 어떤 표적화 과업이 다루는지 나타낸다.,Target 1건이 특정 Targetable Entity를 대상으로 함
+SR-070,IF-041,Targetable Entity,HAS_TARGET_TYPE,IF-040,Target Type,표적 유형,높음,IR-070,LINK,false,실제 대상을 전차·시설 등 표적 유형으로 분류한다.,실체의 Target Type 분류
+SR-071,IF-055,Target Selection Standard,APPLIES_TO_TARGET_TYPE,IF-040,Target Type,선정 기준 적용 표적 유형,높음,IR-071,LINK,false,이 표적 유형에 어떤 선정 기준을 적용할지 나타낸다.,Standard가 Target Type 1에 적용
+SR-072,IF-059,Targeting Operation,INCLUDES_TARGET,IF-042,Target,표적화 과업 포함,높음,IR-072,LINK,false,"Targeting Operation이 관리·포함하는 Target 과업들을 나타낸다. ""작전을 여러 과업으로 나눈다""는 표현보다 포함 관계가 정확하다.","상세 정의상 Target 1..N을 포함. ""작전을 나눈다""보다 포함/관리로 표현하는 것이 정확"
+SR-073,IF-059,Targeting Operation,USES_HIGH_PAYOFF_TARGET_LIST,IF-050,"High Payoff Target List, HPTL",고효용 표적 목록 사용,높음,IR-073,LINK,false,이 작전에서 우선 관리할 고효용 표적 목록을 나타낸다.,작전별 HPTL 연결
+SR-074,IF-059,Targeting Operation,USES_ATTACK_GUIDANCE_MATRIX,IF-052,Attack Guidance Matrix,공격지침 매트릭스 사용,높음,IR-074,LINK,false,이 작전에서 사용할 공격지침 묶음을 나타낸다.,작전별 Attack Guidance Matrix 연결
+SR-075,IF-059,Targeting Operation,USES_TARGET_SELECTION_STANDARD_MATRIX,IF-054,Target Selection Standard Matrix,표적 선정 기준 매트릭스 사용,높음,IR-075,LINK,false,이 작전에서 사용할 표적 선정 기준 묶음을 나타낸다.,작전별 Selection Standard Matrix 연결
+SR-076,IF-059,Targeting Operation,USES_TARGET_ENGAGEMENT_AUTHORITY,IF-057,Target Engagement Authority,교전 권한 적용,높음,IR-076,LINK,false,Targeting Operation에 적용되는 Target Engagement Authority를 연결한다. 실제 승인 주체는 authority의 Owning Unit 등으로 별도 표현된다.,"""누가 승인""보다 해당 작전에 적용되는 authority 객체와의 연결로 표현"
+SR-077,IF-059,Targeting Operation,COVERS_TARGETING_AREA,IF-056,Targeting Area,표적화 구역 포함,높음,IR-077,LINK,false,이 작전이 어느 구역에서 수행되는지 나타낸다.,작전이 다루는 Targeting Area 1..N
+SR-078,IF-055,Target Selection Standard,APPLIES_TO_TARGETING_AREA,IF-056,Targeting Area,선정 기준 적용 구역,높음,IR-078,LINK,false,이 구역에서 사용할 표적 선정 기준을 나타낸다.,Standard의 선택적 Targeting Area
+SR-079,IF-057,Target Engagement Authority,APPLIES_TO_TARGETING_AREA,IF-056,Targeting Area,교전 권한 적용 구역,높음,IR-079,LINK,false,Target Engagement Authority가 적용되는 Targeting Area를 연결한다. 승인 주체 자체는 Unit 관계에서 표현된다.,"""누가 승인""보다 권한 객체가 적용되는 구역으로 표현"
+SR-080,IF-060,Target Effect Solution,HAS_EFFECTOR_EMPLOYMENT,IF-061,Effector Employment,효과수단 운용 포함,높음,IR-080,LINK,false,Target Effect Solution을 구성하는 Effector Employment를 연결한다. 즉 효과 방안과 그 방안을 실현하는 개별 효과수단 운용의 구성 관계다.,Solution을 구성하는 개별 Effector Employment
+SR-081,IF-054,Target Selection Standard Matrix,CONTAINS_SELECTION_STANDARD,IF-055,Target Selection Standard,선정 기준 포함,높음,IR-081,LINK,false,여러 표적 선정 기준을 하나의 매트릭스로 묶는다.,Matrix가 Standard 1..N을 묶음
+SR-082,IF-042,Target,HAS_EFFECT_SOLUTION,IF-060,Target Effect Solution,효과 달성 방안,높음,IR-082,LINK,false,Target에 대해 제안되거나 선택된 Target Effect Solution을 연결한다. 상세 구조상 여러 후보 방안과 선택된 1개 방안을 구분할 수 있다.,상세 정의상 후보 방안 여러 개와 선택 방안 1개가 가능. 실제 구현은 PROPOSES_EFFECT_SOLUTION / SELECTS_EFFECT_SOLUTION 분리 권장

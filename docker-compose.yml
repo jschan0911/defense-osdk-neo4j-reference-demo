@@ -1,0 +1,50 @@
+name: defense-osdk-neo4j-reference-demo
+
+services:
+  neo4j:
+    image: neo4j:2026.06.0
+    container_name: defense-osdk-neo4j
+    ports:
+      - "7474:7474"   # Neo4j Browser
+      - "7687:7687"   # Bolt
+    environment:
+      NEO4J_AUTH: "neo4j/${NEO4J_PASSWORD:-osdk-demo-2026}"
+      DEMO_PASSWORD: "${NEO4J_PASSWORD:-osdk-demo-2026}"
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 1G
+      NEO4J_server_memory_pagecache_size: 512m
+    volumes:
+      - neo4j_data:/data
+      - ./data:/import:ro
+      - ./runtime/logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "cypher-shell -a bolt://localhost:7687 -u neo4j -p \"$${DEMO_PASSWORD}\" 'RETURN 1;' >/dev/null 2>&1 || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 20s
+    restart: unless-stopped
+
+  loader:
+    image: neo4j:2026.06.0
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    environment:
+      NEO4J_PASSWORD: "${NEO4J_PASSWORD:-osdk-demo-2026}"
+    volumes:
+      - ./cypher:/cypher:ro
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - >-
+        set -e;
+        echo '[loader] Neo4j is ready. Loading project data...';
+        for f in /cypher/bootstrap/*.cypher; do
+          echo "[loader] running $$f";
+          cypher-shell -a bolt://neo4j:7687 -u neo4j -p "$$NEO4J_PASSWORD" -f "$$f";
+        done;
+        echo '[loader] complete. Open http://localhost:7474';
+    restart: "no"
+
+volumes:
+  neo4j_data:

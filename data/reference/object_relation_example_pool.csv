@@ -1,0 +1,75 @@
+﻿relationship_id,source_object_id,relation_type,target_object_id,relation_name_ko,basis,basis_interface_relation_id,description_ko,synthetic
+REL-001,OBJ-002,HAS_OBSERVATION,OBJ-004,관측 항목 포함,DIRECT_OSDK_LINK,6,한 보고서에 어떤 관측 항목이 들어 있는지 나타낸다.,True
+REL-002,OBJ-051,HAS_RELATED_LOCATION,OBJ-007,관련 위치,DIRECT_OSDK_LINK,7,"물자 요구와 관련된 명명 위치를 연결한다. 요구·수령 지점일 수 있으나, 공개 관계만으로 단순한 배송 목적지라고 단정하기는 어렵다.",True
+REL-003,OBJ-049,OCCURRED_AT,OBJ-007,발생 위치,DIRECT_OSDK_LINK,8,물자 변동이 발생한 위치를 나타낸다.,True
+REL-004,OBJ-050,RECORDED_AT,OBJ-007,상태 기록 위치,DIRECT_OSDK_LINK,9,물자 상태를 확인한 위치를 나타낸다.,True
+REL-005,OBJ-010,ABOUT_SUBJECT,OBJ-012,정보 대상,DIRECT_OSDK_LINK,19,이 정보가 누구 또는 무엇에 관한 것인지 나타낸다.,True
+REL-006,OBJ-063,SUPPORTED_BY_INTELLIGENCE,OBJ-010,근거 정보,DIRECT_OSDK_LINK,20,변화 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,True
+REL-007,OBJ-010,PRODUCED_BY,OBJ-013,정보 생산자,DIRECT_OSDK_LINK,21,이 정보를 누가 또는 어떤 센서가 만들었는지 나타낸다.,True
+REL-008,OBJ-064,SUPPORTED_BY_INTELLIGENCE,OBJ-010,근거 정보,DIRECT_OSDK_LINK,22,기능 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,True
+REL-009,OBJ-065,SUPPORTED_BY_INTELLIGENCE,OBJ-010,근거 정보,DIRECT_OSDK_LINK,23,부수피해 평가를 뒷받침하거나 근거로 사용된 Intelligence를 연결한다.,True
+REL-010,OBJ-027,HAS_SUB_OPERATION,OBJ-028,하위 작전,DIRECT_OSDK_LINK,26,Operation 사이의 상위–하위 작전 구조를 나타낸다. 상세 정의에는 Parent Operation과 Child Operation 관계가 제시된다.,True
+REL-011,OBJ-027,PERFORMED_BY_UNIT,OBJ-034,수행/담당 부대,DIRECT_OSDK_LINK,27,Operation과 이를 수행하거나 담당하는 Unit을 연결한다. 공개 요약만으로 세부 link property 명칭까지는 확정하기 어렵다.,True
+REL-012,OBJ-027,USES_UNIT_HIERARCHY,OBJ-039,적용 부대 편제,DIRECT_OSDK_LINK,28,작전 당시 적용된 부대 편제를 나타낸다.,True
+REL-013,OBJ-034,HAS_UNIT_TYPE,OBJ-040,부대 유형,DIRECT_OSDK_LINK,32,부대를 해당 부대 유형으로 분류한다.,True
+REL-014,OBJ-075,ALLOWS_AMMUNITION_TYPE,OBJ-043,허용/관련 탄약 유형,DIRECT_OSDK_LINK,33,공격지침에서 사용할 수 있는 탄약을 나타낸다.,True
+REL-015,OBJ-031,INVOLVES_ORGANIZATION,OBJ-029,부모/자식 조직,DIRECT_OSDK_LINK,34,조직 계층 관계 객체가 부모 조직과 자식 조직을 각각 참조한다. 하나의 pair로는 두 역할이 합쳐져 보인다.,True
+REL-016,OBJ-049,FOR_ORGANIZATION,OBJ-029,대상 조직,DIRECT_OSDK_LINK,35,어느 조직의 물자 변경 기록인지 나타낸다.,True
+REL-017,OBJ-050,FOR_ORGANIZATION,OBJ-029,대상 조직,DIRECT_OSDK_LINK,36,어느 조직의 물자 상태 기록인지 나타낸다.,True
+REL-018,OBJ-051,REQUESTED_BY_ORGANIZATION,OBJ-029,요청 조직,DIRECT_OSDK_LINK,37,어느 조직이 물자를 요청했는지 나타낸다.,True
+REL-019,OBJ-077,APPLIES_TO_AMMUNITION_TYPE,OBJ-043,적용 탄약 유형,DIRECT_OSDK_LINK,38,"Target Selection Standard와 관련 Ammunition Type을 연결한다. ""이 기준에서 사용할 탄약""으로 단정하기보다 적용 맥락의 탄약 유형으로 보는 편이 안전하다.",True
+REL-020,OBJ-086,USES_AMMUNITION_TYPE,OBJ-043,사용 탄약 유형,DIRECT_OSDK_LINK,39,조준점 공격에 사용할 탄약을 나타낸다.,True
+REL-021,OBJ-031,HAS_RELATIONSHIP_TYPE,OBJ-032,관계 유형,DIRECT_OSDK_LINK,40,조직 사이 관계가 지휘·배속 중 무엇인지 표시한다.,True
+REL-022,OBJ-031,PART_OF_ORGANIZATION_HIERARCHY,OBJ-033,소속 조직 계층,DIRECT_OSDK_LINK,41,이 조직 관계가 어느 조직 계층에 속하는지 나타낸다.,True
+REL-023,OBJ-051,REQUIRES_MATERIEL_TYPE,OBJ-041,요구 물자 유형,DIRECT_OSDK_LINK,42,어떤 물자가 필요한지 나타낸다.,True
+REL-024,OBJ-037,PART_OF_UNIT_HIERARCHY,OBJ-039,소속 부대 계층,DIRECT_OSDK_LINK,43,이 부대 관계가 어느 부대 계층에 속하는지 나타낸다.,True
+REL-025,OBJ-037,HAS_RELATIONSHIP_TYPE,OBJ-038,관계 유형,DIRECT_OSDK_LINK,44,부대 사이 관계가 지휘·배속 중 무엇인지 표시한다.,True
+REL-026,OBJ-037,INVOLVES_UNIT,OBJ-034,부모/자식 부대,DIRECT_OSDK_LINK,45,부대 계층 관계 객체가 부모 Unit과 자식 Unit을 각각 참조한다. 하나의 pair로는 두 역할이 합쳐져 보인다.,True
+REL-027,OBJ-070,HAS_ASSOCIATED_UNIT,OBJ-034,관련 부대,DIRECT_OSDK_LINK,46,"FSCM과 관련 Unit을 연결한다. 상세 정의상 소유·조정·면제 Unit 등 서로 다른 역할이 존재하므로 단순히 ""관리 부대"" 하나로 축약하면 정보가 손실된다.",True
+REL-028,OBJ-079,OWNED_BY_UNIT,OBJ-034,권한 소유 부대,DIRECT_OSDK_LINK,47,Target Engagement Authority의 소유 부대(Owning Unit)를 나타낸다. 특정 개별 Target의 교전 권한이라고 한정하는 설명은 부정확하다.,True
+REL-029,OBJ-049,AFFECTS_MATERIEL_TYPE,OBJ-041,변경 대상 물자 유형,DIRECT_OSDK_LINK,48,어떤 물자의 수량·상태가 바뀌었는지 나타낸다.,True
+REL-030,OBJ-050,DESCRIBES_MATERIEL_TYPE,OBJ-041,상태 대상 물자 유형,DIRECT_OSDK_LINK,49,어떤 물자의 현재 상태인지 나타낸다.,True
+REL-031,OBJ-068,EXECUTES_TARGET,OBJ-060,표적화 과업 실행,DIRECT_OSDK_LINK,53,어떤 표적화 과업을 실제 교전으로 수행했는지 나타낸다.,True
+REL-032,OBJ-068,HAS_CHANGE_ASSESSMENT,OBJ-063,변화 평가 결과,DIRECT_OSDK_LINK,54,교전 뒤 표적이 얼마나 변했는지 평가한 결과를 붙인다.,True
+REL-033,OBJ-068,HAS_FUNCTIONAL_ASSESSMENT,OBJ-064,기능 평가 결과,DIRECT_OSDK_LINK,55,교전 뒤 표적 기능이 얼마나 남았는지 평가한 결과를 붙인다.,True
+REL-034,OBJ-068,HAS_COLLATERAL_DAMAGE_ASSESSMENT,OBJ-065,부수피해 평가 결과,DIRECT_OSDK_LINK,56,교전으로 발생한 부수피해 평가 결과를 붙인다.,True
+REL-035,OBJ-068,HAS_MUNITION_EFFECTIVENESS_ASSESSMENT,OBJ-066,탄약 효과 평가 결과,DIRECT_OSDK_LINK,57,사용한 탄약이 얼마나 효과적이었는지 평가한 결과를 붙인다.,True
+REL-036,OBJ-068,HAS_SERVICED_ASSESSMENT,OBJ-067,조치 여부 평가 결과,DIRECT_OSDK_LINK,58,표적에 필요한 조치가 끝났는지 평가한 결과를 붙인다.,True
+REL-037,OBJ-074,CONTAINS_ATTACK_GUIDANCE,OBJ-075,공격지침 포함,DIRECT_OSDK_LINK,59,여러 공격지침을 하나의 매트릭스로 묶는다.,True
+REL-038,OBJ-075,APPLIES_TO_TARGETING_AREA,OBJ-078,적용 구역,DIRECT_OSDK_LINK,60,이 공격지침을 어느 구역에 적용할지 나타낸다.,True
+REL-039,OBJ-075,APPLIES_TO_TARGET_TYPE,OBJ-056,적용 표적 유형,DIRECT_OSDK_LINK,61,이 공격지침을 어떤 표적에 적용할지 나타낸다.,True
+REL-040,OBJ-052,CONTAINS_COLLATERAL_CONCERN,OBJ-053,부수피해 우려 후보 포함,DIRECT_OSDK_LINK,62,부수피해가 우려되는 후보를 하나의 목록으로 묶는다.,True
+REL-041,OBJ-052,USES_COLLATERAL_GUIDANCE,OBJ-080,검토 지침,DIRECT_OSDK_LINK,63,이 목록을 검토할 때 사용할 지침을 나타낸다.,True
+REL-042,OBJ-071,CONTAINS_TARGET_PRIORITY,OBJ-072,표적 우선순위 포함,DIRECT_OSDK_LINK,64,High Payoff Target List가 표적 유형별 Target Priority 항목을 포함하는 관계를 나타낸다.,True
+REL-043,OBJ-072,APPLIES_TO_TARGETING_AREA,OBJ-078,적용 구역,DIRECT_OSDK_LINK,65,이 우선순위를 어느 구역에 적용할지 나타낸다.,True
+REL-044,OBJ-072,PRIORITIZES_TARGET_TYPE,OBJ-056,우선순위 대상 표적 유형,DIRECT_OSDK_LINK,66,어떤 표적 유형을 우선할지 나타낸다.,True
+REL-045,OBJ-080,APPLIES_TO_TARGETING_AREA,OBJ-078,적용 구역,DIRECT_OSDK_LINK,67,이 지침을 어느 구역에 적용할지 나타낸다.,True
+REL-046,OBJ-081,USES_COLLATERAL_GUIDANCE,OBJ-080,부수피해 지침 사용,DIRECT_OSDK_LINK,68,이 표적화 작전에서 사용할 부수피해 지침을 나타낸다.,True
+REL-047,OBJ-060,TARGETS_ENTITY,OBJ-057,표적화 대상 실체,DIRECT_OSDK_LINK,69,어떤 실제 대상을 어떤 표적화 과업이 다루는지 나타낸다.,True
+REL-048,OBJ-057,HAS_TARGET_TYPE,OBJ-056,표적 유형,DIRECT_OSDK_LINK,70,실제 대상을 전차·시설 등 표적 유형으로 분류한다.,True
+REL-049,OBJ-077,APPLIES_TO_TARGET_TYPE,OBJ-056,선정 기준 적용 표적 유형,DIRECT_OSDK_LINK,71,이 표적 유형에 어떤 선정 기준을 적용할지 나타낸다.,True
+REL-050,OBJ-081,INCLUDES_TARGET,OBJ-060,표적화 과업 포함,DIRECT_OSDK_LINK,72,"Targeting Operation이 관리·포함하는 Target 과업들을 나타낸다. ""작전을 여러 과업으로 나눈다""는 표현보다 포함 관계가 정확하다.",True
+REL-051,OBJ-081,USES_HIGH_PAYOFF_TARGET_LIST,OBJ-071,고효용 표적 목록 사용,DIRECT_OSDK_LINK,73,이 작전에서 우선 관리할 고효용 표적 목록을 나타낸다.,True
+REL-052,OBJ-081,USES_ATTACK_GUIDANCE_MATRIX,OBJ-074,공격지침 매트릭스 사용,DIRECT_OSDK_LINK,74,이 작전에서 사용할 공격지침 묶음을 나타낸다.,True
+REL-053,OBJ-081,USES_TARGET_SELECTION_STANDARD_MATRIX,OBJ-076,표적 선정 기준 매트릭스 사용,DIRECT_OSDK_LINK,75,이 작전에서 사용할 표적 선정 기준 묶음을 나타낸다.,True
+REL-054,OBJ-081,USES_TARGET_ENGAGEMENT_AUTHORITY,OBJ-079,교전 권한 적용,DIRECT_OSDK_LINK,76,Targeting Operation에 적용되는 Target Engagement Authority를 연결한다. 실제 승인 주체는 authority의 Owning Unit 등으로 별도 표현된다.,True
+REL-055,OBJ-081,COVERS_TARGETING_AREA,OBJ-078,표적화 구역 포함,DIRECT_OSDK_LINK,77,이 작전이 어느 구역에서 수행되는지 나타낸다.,True
+REL-056,OBJ-077,APPLIES_TO_TARGETING_AREA,OBJ-078,선정 기준 적용 구역,DIRECT_OSDK_LINK,78,이 구역에서 사용할 표적 선정 기준을 나타낸다.,True
+REL-057,OBJ-079,APPLIES_TO_TARGETING_AREA,OBJ-078,교전 권한 적용 구역,DIRECT_OSDK_LINK,79,Target Engagement Authority가 적용되는 Targeting Area를 연결한다. 승인 주체 자체는 Unit 관계에서 표현된다.,True
+REL-058,OBJ-082,HAS_EFFECTOR_EMPLOYMENT,OBJ-084,효과수단 운용 포함,DIRECT_OSDK_LINK,80,Target Effect Solution을 구성하는 Effector Employment를 연결한다. 즉 효과 방안과 그 방안을 실현하는 개별 효과수단 운용의 구성 관계다.,True
+REL-059,OBJ-076,CONTAINS_SELECTION_STANDARD,OBJ-077,선정 기준 포함,DIRECT_OSDK_LINK,81,여러 표적 선정 기준을 하나의 매트릭스로 묶는다.,True
+REL-060,OBJ-060,HAS_EFFECT_SOLUTION,OBJ-082,효과 달성 방안,DIRECT_OSDK_LINK,82,Target에 대해 제안되거나 선택된 Target Effect Solution을 연결한다. 상세 구조상 여러 후보 방안과 선택된 1개 방안을 구분할 수 있다.,True
+REL-061,OBJ-025,HAS_OBSERVATION,OBJ-004,관측 항목 포함,INHERITED_INTERFACE_LINK,6,Intelligence Report가 Report를 확장하므로 Report의 관측 항목 연결을 상속해 사용하는 예시.,True
+REL-062,OBJ-003,HAS_OBSERVATION,OBJ-050,관측 항목 포함,INHERITED_INTERFACE_LINK,6,Materiel Status Event가 Report Observation을 확장하므로 보고서의 관측 항목으로 연결하는 예시.,True
+REL-063,OBJ-081,PERFORMED_BY_UNIT,OBJ-034,수행/담당 부대,INHERITED_INTERFACE_LINK,27,Targeting Operation이 Operation을 확장하므로 Operation-Unit 관계를 사용하는 예시.,True
+REL-064,OBJ-068,PERFORMED_BY_UNIT,OBJ-035,수행/담당 부대,INHERITED_INTERFACE_LINK,27,Engagement가 Operation을 확장하므로 Operation-Unit 관계를 사용하는 예시.,True
+REL-065,OBJ-018,ABOUT_SUBJECT,OBJ-012,정보 대상,INHERITED_INTERFACE_LINK,19,IMINT가 GEOINT와 Intelligence를 차례로 확장하므로 Intelligence의 대상 관계를 사용하는 예시.,True
+REL-066,OBJ-022,ABOUT_SUBJECT,OBJ-012,정보 대상,INHERITED_INTERFACE_LINK,19,SIGINT가 Intelligence를 확장하므로 Intelligence의 대상 관계를 사용하는 예시.,True
+REL-067,OBJ-023,ABOUT_SUBJECT,OBJ-058,정보 대상,INHERITED_INTERFACE_LINK,19,ELINT는 Intelligence 계열이고 Targetable Entity는 Intelligence Subject를 확장하므로 양쪽 상속을 통해 연결되는 예시.,True
+REL-068,OBJ-024,ABOUT_SUBJECT,OBJ-059,정보 대상,INHERITED_INTERFACE_LINK,19,COMINT는 Intelligence 계열이고 Targetable Entity는 Intelligence Subject를 확장하므로 연결 가능한 예시.,True
+REL-069,OBJ-061,TARGETS_ENTITY,OBJ-058,표적화 대상 실체,INHERITED_INTERFACE_LINK,69,추가 표적화 과업과 추가 표적화 가능 실체를 연결한 합성 예시.,True
+REL-070,OBJ-062,TARGETS_ENTITY,OBJ-059,표적화 대상 실체,INHERITED_INTERFACE_LINK,69,추가 표적화 과업과 추가 표적화 가능 실체를 연결한 합성 예시.,True
+REL-071,OBJ-081,INCLUDES_TARGET,OBJ-061,표적화 과업 포함,INHERITED_INTERFACE_LINK,72,하나의 표적화 작전에 복수 표적화 과업을 포함시키는 합성 예시.,True
+REL-072,OBJ-081,INCLUDES_TARGET,OBJ-062,표적화 과업 포함,INHERITED_INTERFACE_LINK,72,하나의 표적화 작전에 복수 표적화 과업을 포함시키는 합성 예시.,True
+REL-073,OBJ-081,HAS_SUB_OPERATION,OBJ-068,하위 작전,INHERITED_INTERFACE_LINK,26,Targeting Operation과 Engagement가 모두 Operation 계열이므로 상위 Operation 관계를 활용하는 예시.,True
+REL-074,OBJ-027,PERFORMED_BY_UNIT,OBJ-036,수행/담당 부대,INHERITED_INTERFACE_LINK,27,하나의 작전에 복수 부대가 참여할 수 있음을 보여주는 합성 예시.,True

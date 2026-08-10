@@ -1,0 +1,290 @@
+﻿object_id,property_key,property_name,property_type,value_raw,display_value_ko,defined_by_interface_id,defined_by_interface,inheritance,required,synthetic
+OBJ-001,sidc,SIDC,string,SYNTH-SIDC-001,합성 군사심볼 코드 001,IF-001,MILSTD 2525C Symbol,direct,true,true
+OBJ-001,symbol_anchor_points,Symbol Anchor Points,list<geohash>,"[""wydq70m4"", ""wydq76hm""]",합성 기준좌표 2점,IF-001,MILSTD 2525C Symbol,direct,true,true
+OBJ-001,quantity_modifier_c,Quantity Modifier (C),integer,3,3개,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,reinforced_or_reduced_modifier_f,Reinforced or Reduced Modifier (F),MIL2525 Reinforced or Reduced,R,증강(R),IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,staff_comments_modifier_g,Staff Comments Modifier (G),string,합성 훈련데이터,합성 훈련데이터,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,additional_information_modifier_1_h,Additional Information Modifier 1 (H),string,추가정보-1,추가정보 1,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,additional_information_modifier_2_h1,Additional Information Modifier 2 (H1),string,추가정보-1,추가정보 1,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,additional_information_modifier_3_h2,Additional Information Modifier 3 (H2),string,추가정보-1,추가정보 1,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,evaluation_rating_modifier_j,Evaluation Rating Modifier (J),MIL2525 Evaluation Rating,B2,출처 신뢰도 B / 정보 신빙성 2,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,combat_effectiveness_modifier_k,Combat Effectiveness Modifier (K),string,양호,양호,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,signature_equipment_modifier_l,Signature Equipment Modifier (L),MIL2525 Signature Equipment,DETECTED,전자 신호 탐지됨,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,higher_formation_modifier_m,Higher Formation Modifier (M),string,가상 제1합동감시단,가상 제1합동감시단,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,iff_sif_modifier_p,IFF/SIF Modifier (P),string,MODE4-SYN,합성 IFF 모드,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,direction_of_movement_indicator_modifier_q,Direction of Movement Indicator Modifier (Q),double,55.0,55도,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,sigint_mobility_indicator_modifier_r2,SIGINT Mobility Indicator Modifier (R2),MIL2525 SIGINT Mobility Indicator,MOBILE,이동형,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,unique_designation_modifier_1_t,Unique Designation Modifier 1 (T),string,가상 중부전선 감시구역 A 전술심볼,가상 중부전선 감시구역 A 전술심볼,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,unique_designation_modifier_2_t1,Unique Designation Modifier 2 (T1),string,보조명칭-001,보조명칭 001,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,type_modifier_v,Type Modifier (V),string,감시/정찰,감시·정찰,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,date_time_group_modifier_1_effective_time_w,Date-Time Group Modifier 1/Effective Time (W),timestamp,2026-08-09T09:07:00,2026-08-09 09:07,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,date_time_group_modifier_2_expiration_time_w1,Date-Time Group Modifier 2/Expiration Time (W1),timestamp,2026-08-09T15:07:00,2026-08-09 15:07,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,altitude_depth_modifier_x,Altitude/Depth Modifier (X),list<struct>,"[{""min"": 0, ""max"": 500, ""unit"": ""m""}]",0~500m,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,location_modifier_y,Location Modifier (Y),geohash,wydq70m4,"합성좌표 37.663,127.053",IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,speed_modifier_z,Speed Modifier (Z),struct,"{""value"": 19, ""unit"": ""km/h""}",19 km/h,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,special_c2_headquarters_modifier_aa,Special C2 Headquarters Modifier (AA),string,가상 지휘소,가상 지휘소,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,platform_type_modifier_ad,Platform Type Modifier (AD),string,SYN-PLATFORM,합성 플랫폼,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,equipment_teardown_time_modifier_ae,Equipment Teardown Time Modifier (AE),double,12.0,12분,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,common_identifier_modifier_af,Common Identifier Modifier (AF),string,SYN-CID-001,합성 공통식별자 001,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,distance_modifier_am,Distance Modifier (AM),list<double>,"[500.0, 1000.0]","500m / 1,000m",IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,azimuth_modifier_an,Azimuth Modifier (AN),list<double>,"[45.0, 90.0]",45도 / 90도,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-001,engagement_bar_modifier_ao,Engagement Bar Modifier (AO),string,훈련·모의,훈련·모의 상태,IF-001,MILSTD 2525C Symbol,direct,false,true
+OBJ-002,timestamp,Timestamp,timestamp,2026-08-09T09:14:00,2026-08-09 09:14,IF-002,Report,direct,true,true
+OBJ-003,timestamp,Timestamp,timestamp,2026-08-09T09:21:00,2026-08-09 09:21,IF-002,Report,direct,true,true
+OBJ-005,track_quality,Track Quality,Track Quality,12,추적품질 12/15,IF-004,Defense Tracked Entity,direct,false,true
+OBJ-006,track_quality,Track Quality,Track Quality,12,추적품질 12/15,IF-005,Defense Geotemporal Observation,direct,false,true
+OBJ-007,location_geopoint,Location (geopoint),geohash,wy7ht22r,"합성좌표 35.950,128.200",IF-006,Named Location,direct,false,true
+OBJ-007,location_geoshape,Location (geoshape),geoshape,"POLYGON((128.18500 35.93500,128.21500 35.93500,128.21500 35.96500,128.18500 35.96500,128.18500 35.93500))",합성 작전구역 폴리곤,IF-006,Named Location,direct,false,true
+OBJ-008,location_geopoint,Location (geopoint),geohash,wydqmrtg,"합성좌표 37.703,127.153",IF-006,Named Location,direct,false,true
+OBJ-008,location_geoshape,Location (geoshape),geoshape,"POLYGON((127.13800 37.68800,127.16800 37.68800,127.16800 37.71800,127.13800 37.71800,127.13800 37.68800))",합성 작전구역 폴리곤,IF-006,Named Location,direct,false,true
+OBJ-009,location_geopoint,Location (geopoint),geohash,wydq70zk,"합성좌표 37.666,127.056",IF-006,Named Location,direct,false,true
+OBJ-009,location_geoshape,Location (geoshape),geoshape,"POLYGON((127.04100 37.65100,127.07100 37.65100,127.07100 37.68100,127.04100 37.68100,127.04100 37.65100))",합성 작전구역 폴리곤,IF-006,Named Location,direct,false,true
+OBJ-010,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,direct,false,true
+OBJ-010,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T10:10:00,2026-08-09 10:10,IF-007,Intelligence,direct,true,true
+OBJ-010,reported_position,Reported Position,geohash,wydmz4v7,"합성좌표 37.589,127.229",IF-007,Intelligence,direct,false,true
+OBJ-011,normalized_confidence,Normalized Confidence,Normalized Confidence,3,중간(3/5),IF-007,Intelligence,direct,false,true
+OBJ-011,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T10:17:00,2026-08-09 10:17,IF-007,Intelligence,direct,true,true
+OBJ-011,reported_position,Reported Position,geohash,wydmk90n,"합성좌표 37.492,127.112",IF-007,Intelligence,direct,false,true
+OBJ-015,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,inherited,false,true
+OBJ-015,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T10:45:00,2026-08-09 10:45,IF-007,Intelligence,inherited,true,true
+OBJ-015,reported_position,Reported Position,geohash,wy7ht349,"합성좌표 35.953,128.203",IF-007,Intelligence,inherited,false,true
+OBJ-016,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,inherited,false,true
+OBJ-016,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T10:52:00,2026-08-09 10:52,IF-007,Intelligence,inherited,true,true
+OBJ-016,reported_position,Reported Position,geohash,wydqt80j,"합성좌표 37.706,127.156",IF-007,Intelligence,inherited,false,true
+OBJ-017,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,inherited,false,true
+OBJ-017,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T10:59:00,2026-08-09 10:59,IF-007,Intelligence,inherited,true,true
+OBJ-017,reported_position,Reported Position,geohash,wydq733t,"합성좌표 37.669,127.059",IF-007,Intelligence,inherited,false,true
+OBJ-017,intelligence_ellipse_geometry,Intelligence Ellipse Geometry,geoshape,"POLYGON((127.05100 37.66100,127.06700 37.66100,127.06700 37.67700,127.05100 37.67700,127.05100 37.66100))",합성 위치 오차영역,IF-012,OPIR,direct,false,true
+OBJ-017,semi_major_axis_meters,Semi-Major Axis (meters),double,130.0,130m,IF-012,OPIR,direct,false,true
+OBJ-017,semi_minor_axis_meters,Semi-Minor Axis (meters),double,65.0,65m,IF-012,OPIR,direct,false,true
+OBJ-017,activity_type,Activity Type,string,열원 이동 징후,열원 이동 징후,IF-012,OPIR,direct,false,true
+OBJ-018,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,inherited,false,true
+OBJ-018,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T11:06:00,2026-08-09 11:06,IF-007,Intelligence,inherited,true,true
+OBJ-018,reported_position,Reported Position,geohash,wydmz5rt,"합성좌표 37.592,127.232",IF-007,Intelligence,inherited,false,true
+OBJ-018,image_media_url,Image Media URL,string,https://example.invalid/synthetic/obj-018.jpg,합성 영상 OBJ-018,IF-013,IMINT,direct,true,true
+OBJ-018,image_media_reference,Image Media Reference,media reference,media://synthetic/obj-018,합성 미디어 참조 OBJ-018,IF-013,IMINT,direct,true,true
+OBJ-019,normalized_confidence,Normalized Confidence,Normalized Confidence,3,중간(3/5),IF-007,Intelligence,inherited,false,true
+OBJ-019,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T11:13:00,2026-08-09 11:13,IF-007,Intelligence,inherited,true,true
+OBJ-019,reported_position,Reported Position,geohash,wydmk9f2,"합성좌표 37.495,127.115",IF-007,Intelligence,inherited,false,true
+OBJ-019,image_media_url,Image Media URL,string,https://example.invalid/synthetic/obj-019.jpg,합성 영상 OBJ-019,IF-013,IMINT,direct,true,true
+OBJ-019,image_media_reference,Image Media Reference,media reference,media://synthetic/obj-019,합성 미디어 참조 OBJ-019,IF-013,IMINT,direct,true,true
+OBJ-020,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,inherited,false,true
+OBJ-020,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T11:20:00,2026-08-09 11:20,IF-007,Intelligence,inherited,true,true
+OBJ-020,reported_position,Reported Position,geohash,wyd6qcv6,"합성좌표 36.968,127.218",IF-007,Intelligence,inherited,false,true
+OBJ-020,intelligence_ellipse_geometry,Intelligence Ellipse Geometry,geoshape,"POLYGON((127.21000 36.96000,127.22600 36.96000,127.22600 36.97600,127.21000 36.97600,127.21000 36.96000))",합성 위치 오차영역,IF-014,MTI,direct,false,true
+OBJ-020,semi_major_axis_meters,Semi-Major Axis (meters),double,130.0,130m,IF-014,MTI,direct,false,true
+OBJ-020,semi_minor_axis_meters,Semi-Minor Axis (meters),double,65.0,65m,IF-014,MTI,direct,false,true
+OBJ-021,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,inherited,false,true
+OBJ-021,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T11:27:00,2026-08-09 11:27,IF-007,Intelligence,inherited,true,true
+OBJ-021,reported_position,Reported Position,geohash,wyd80yc4,"합성좌표 36.600,127.300",IF-007,Intelligence,inherited,false,true
+OBJ-021,intelligence_ellipse_geometry,Intelligence Ellipse Geometry,geoshape,"POLYGON((127.29200 36.59200,127.30800 36.59200,127.30800 36.60800,127.29200 36.60800,127.29200 36.59200))",합성 위치 오차영역,IF-015,SIGINT,direct,true,true
+OBJ-021,frequency_mhz,Frequency (MHz),double,425.0,425.0 MHz,IF-015,SIGINT,direct,true,true
+OBJ-021,semi_major_axis_meters,Semi-Major Axis (meters),double,130.0,130m,IF-015,SIGINT,direct,true,true
+OBJ-021,semi_minor_axis_meters,Semi-Minor Axis (meters),double,65.0,65m,IF-015,SIGINT,direct,true,true
+OBJ-021,axis_orientation_degrees,Axis Orientation (degrees),double,40.0,40.0도,IF-015,SIGINT,direct,true,true
+OBJ-022,normalized_confidence,Normalized Confidence,Normalized Confidence,3,중간(3/5),IF-007,Intelligence,inherited,false,true
+OBJ-022,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T11:34:00,2026-08-09 11:34,IF-007,Intelligence,inherited,true,true
+OBJ-022,reported_position,Reported Position,geohash,wy6wu3b7,"합성좌표 36.353,127.453",IF-007,Intelligence,inherited,false,true
+OBJ-022,intelligence_ellipse_geometry,Intelligence Ellipse Geometry,geoshape,"POLYGON((127.44500 36.34500,127.46100 36.34500,127.46100 36.36100,127.44500 36.36100,127.44500 36.34500))",합성 위치 오차영역,IF-015,SIGINT,direct,true,true
+OBJ-022,frequency_mhz,Frequency (MHz),double,430.0,430.0 MHz,IF-015,SIGINT,direct,true,true
+OBJ-022,semi_major_axis_meters,Semi-Major Axis (meters),double,140.0,140m,IF-015,SIGINT,direct,true,true
+OBJ-022,semi_minor_axis_meters,Semi-Minor Axis (meters),double,70.0,70m,IF-015,SIGINT,direct,true,true
+OBJ-022,axis_orientation_degrees,Axis Orientation (degrees),double,45.0,45.0도,IF-015,SIGINT,direct,true,true
+OBJ-023,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,inherited,false,true
+OBJ-023,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T11:41:00,2026-08-09 11:41,IF-007,Intelligence,inherited,true,true
+OBJ-023,reported_position,Reported Position,geohash,wy7ht3sf,"합성좌표 35.956,128.206",IF-007,Intelligence,inherited,false,true
+OBJ-023,intelligence_ellipse_geometry,Intelligence Ellipse Geometry,geoshape,"POLYGON((128.19800 35.94800,128.21400 35.94800,128.21400 35.96400,128.19800 35.96400,128.19800 35.94800))",합성 위치 오차영역,IF-015,SIGINT,inherited,true,true
+OBJ-023,frequency_mhz,Frequency (MHz),double,425.0,425.0 MHz,IF-015,SIGINT,inherited,true,true
+OBJ-023,semi_major_axis_meters,Semi-Major Axis (meters),double,130.0,130m,IF-015,SIGINT,inherited,true,true
+OBJ-023,semi_minor_axis_meters,Semi-Minor Axis (meters),double,65.0,65m,IF-015,SIGINT,inherited,true,true
+OBJ-023,axis_orientation_degrees,Axis Orientation (degrees),double,40.0,40.0도,IF-015,SIGINT,inherited,true,true
+OBJ-023,elnot,ELNOT,string,EL-SYN-023,합성 ELNOT 023,IF-016,ELINT,direct,true,true
+OBJ-024,normalized_confidence,Normalized Confidence,Normalized Confidence,4,높음(4/5),IF-007,Intelligence,inherited,false,true
+OBJ-024,reported_timestamp,Reported Timestamp,timestamp,2026-08-09T11:48:00,2026-08-09 11:48,IF-007,Intelligence,inherited,true,true
+OBJ-024,reported_position,Reported Position,geohash,wydqt8dq,"합성좌표 37.709,127.159",IF-007,Intelligence,inherited,false,true
+OBJ-024,intelligence_ellipse_geometry,Intelligence Ellipse Geometry,geoshape,"POLYGON((127.15100 37.70100,127.16700 37.70100,127.16700 37.71700,127.15100 37.71700,127.15100 37.70100))",합성 위치 오차영역,IF-015,SIGINT,inherited,true,true
+OBJ-024,frequency_mhz,Frequency (MHz),double,425.0,425.0 MHz,IF-015,SIGINT,inherited,true,true
+OBJ-024,semi_major_axis_meters,Semi-Major Axis (meters),double,130.0,130m,IF-015,SIGINT,inherited,true,true
+OBJ-024,semi_minor_axis_meters,Semi-Minor Axis (meters),double,65.0,65m,IF-015,SIGINT,inherited,true,true
+OBJ-024,axis_orientation_degrees,Axis Orientation (degrees),double,40.0,40.0도,IF-015,SIGINT,inherited,true,true
+OBJ-024,cenot,CENOT,string,CE-SYN-024,합성 CENOT 024,IF-017,COMINT,direct,true,true
+OBJ-025,timestamp,Timestamp,timestamp,2026-08-09T11:55:00,2026-08-09 11:55,IF-002,Report,inherited,true,true
+OBJ-025,media_reference,Media Reference,media reference,media://synthetic/obj-025,합성 미디어 참조 OBJ-025,IF-018,Intelligence Report,direct,true,true
+OBJ-025,report_text,Report Text,string,복합징후 정보보고 IR-101 — 가상 감시구역에서 복합 센서 징후가 확인되어 추가 감시와 정보융합이 필요하다는 합성 보고.,합성 정보보고 본문,IF-018,Intelligence Report,direct,true,true
+OBJ-026,timestamp,Timestamp,timestamp,2026-08-09T12:02:00,2026-08-09 12:02,IF-002,Report,inherited,true,true
+OBJ-026,media_reference,Media Reference,media reference,media://synthetic/obj-026,합성 미디어 참조 OBJ-026,IF-018,Intelligence Report,direct,true,true
+OBJ-026,report_text,Report Text,string,전자신호 동향 정보보고 IR-102 — 가상 감시구역에서 복합 센서 징후가 확인되어 추가 감시와 정보융합이 필요하다는 합성 보고.,합성 정보보고 본문,IF-018,Intelligence Report,direct,true,true
+OBJ-027,scheduled_start_time,Scheduled Start Time,timestamp,2026-08-09T12:09:00,2026-08-09 12:09,IF-019,Operation,direct,true,true
+OBJ-027,scheduled_end_time,Scheduled End Time,timestamp,2026-08-09T16:09:00,2026-08-09 16:09,IF-019,Operation,direct,true,true
+OBJ-027,actual_start_time,Actual Start Time,timestamp,2026-08-09T12:14:00,2026-08-09 12:14,IF-019,Operation,direct,false,true
+OBJ-027,actual_end_time,Actual End Time,timestamp,2026-08-09T15:54:00,2026-08-09 15:54,IF-019,Operation,direct,false,true
+OBJ-028,scheduled_start_time,Scheduled Start Time,timestamp,2026-08-09T12:16:00,2026-08-09 12:16,IF-019,Operation,direct,true,true
+OBJ-028,scheduled_end_time,Scheduled End Time,timestamp,2026-08-09T16:16:00,2026-08-09 16:16,IF-019,Operation,direct,true,true
+OBJ-028,actual_start_time,Actual Start Time,timestamp,2026-08-09T12:21:00,2026-08-09 12:21,IF-019,Operation,direct,false,true
+OBJ-028,actual_end_time,Actual End Time,timestamp,2026-08-09T16:01:00,2026-08-09 16:01,IF-019,Operation,direct,false,true
+OBJ-031,valid_from,Valid From,date,2026-08-12,2026-08-12,IF-021,Organization Hierarchy Node Relationship,direct,false,true
+OBJ-031,valid_to,Valid To,date,2026-09-11,2026-09-11,IF-021,Organization Hierarchy Node Relationship,direct,false,true
+OBJ-032,relationship_type,Relationship Type,string,OPCON,작전통제(OPCON),IF-022,Organization Hierarchy Node Relationship Type,direct,true,true
+OBJ-032,definition,Definition,string,가상 조직의 지휘·통제 관계를 표현하는 합성 정의.,가상 조직관계 정의,IF-022,Organization Hierarchy Node Relationship Type,direct,true,true
+OBJ-033,valid_from,Valid From,date,2026-08-14,2026-08-14,IF-023,Organization Hierarchy,direct,false,true
+OBJ-033,valid_to,Valid To,date,2026-09-13,2026-09-13,IF-023,Organization Hierarchy,direct,false,true
+OBJ-034,unit_identifier,Unit Identifier,string,KOR-SYN-U-034,합성 부대식별자 U-034,IF-024,Unit,direct,false,true
+OBJ-034,military_service,Military Service,Military Service,ARMY,육군,IF-024,Unit,direct,false,true
+OBJ-034,echelon,Echelon,Unit Echelon,COMPANY,중대,IF-024,Unit,direct,false,true
+OBJ-034,sidc,SIDC,string,SYNTH-SIDC-034,합성 군사심볼 코드 034,IF-024,Unit,direct,false,true
+OBJ-034,affiliation,Affiliation,MIL2525 Affiliation,FRIEND,아군,IF-024,Unit,direct,false,true
+OBJ-034,allegiance,Allegiance,string,KOR-SYN,대한민국(합성),IF-024,Unit,direct,false,true
+OBJ-035,unit_identifier,Unit Identifier,string,KOR-SYN-U-035,합성 부대식별자 U-035,IF-024,Unit,direct,false,true
+OBJ-035,military_service,Military Service,Military Service,ARMY,육군,IF-024,Unit,direct,false,true
+OBJ-035,echelon,Echelon,Unit Echelon,PLATOON,소대,IF-024,Unit,direct,false,true
+OBJ-035,sidc,SIDC,string,SYNTH-SIDC-035,합성 군사심볼 코드 035,IF-024,Unit,direct,false,true
+OBJ-035,affiliation,Affiliation,MIL2525 Affiliation,FRIEND,아군,IF-024,Unit,direct,false,true
+OBJ-035,allegiance,Allegiance,string,KOR-SYN,대한민국(합성),IF-024,Unit,direct,false,true
+OBJ-036,unit_identifier,Unit Identifier,string,KOR-SYN-U-036,합성 부대식별자 U-036,IF-024,Unit,direct,false,true
+OBJ-036,military_service,Military Service,Military Service,ARMY,육군,IF-024,Unit,direct,false,true
+OBJ-036,echelon,Echelon,Unit Echelon,COMPANY,중대,IF-024,Unit,direct,false,true
+OBJ-036,sidc,SIDC,string,SYNTH-SIDC-036,합성 군사심볼 코드 036,IF-024,Unit,direct,false,true
+OBJ-036,affiliation,Affiliation,MIL2525 Affiliation,FRIEND,아군,IF-024,Unit,direct,false,true
+OBJ-036,allegiance,Allegiance,string,KOR-SYN,대한민국(합성),IF-024,Unit,direct,false,true
+OBJ-037,valid_from,Valid From,date,2026-08-18,2026-08-18,IF-025,Unit Hierarchy Node Relationship,direct,true,true
+OBJ-037,valid_to,Valid To,date,2026-09-17,2026-09-17,IF-025,Unit Hierarchy Node Relationship,direct,true,true
+OBJ-038,relationship_type,Relationship Type,string,ATTACHED,배속(Attached),IF-026,Unit Hierarchy Node Relationship Type,direct,true,true
+OBJ-038,definition,Definition,string,특정 임무 기간 동안 예하 부대를 배속하는 가상 관계유형.,가상 부대 배속관계 정의,IF-026,Unit Hierarchy Node Relationship Type,direct,true,true
+OBJ-039,valid_from,Valid From,date,2026-08-20,2026-08-20,IF-027,Unit Hierarchy,direct,false,true
+OBJ-039,valid_to,Valid To,date,2026-09-19,2026-09-19,IF-027,Unit Hierarchy,direct,false,true
+OBJ-040,unit_type,Unit Type,string,감시정찰부대,감시·정찰 부대,IF-028,Unit Type,direct,true,true
+OBJ-040,abbreviated_unit_type,Abbreviated Unit Type,string,감시정찰,감시정찰,IF-028,Unit Type,direct,true,true
+OBJ-040,definition,Definition,string,특정 임무 기간 동안 예하 부대를 배속하는 가상 관계유형.,가상 부대 배속관계 정의,IF-028,Unit Type,direct,true,true
+OBJ-041,materiel_type_identifier,Materiel Type Identifier,string,SYN-MAT-041,합성 물자유형 041,IF-029,Materiel Type,direct,false,true
+OBJ-041,nomenclature,Nomenclature,string,감시드론 배터리 팩,감시드론 배터리 팩,IF-029,Materiel Type,direct,true,true
+OBJ-042,materiel_type_identifier,Materiel Type Identifier,string,SYN-MAT-042,합성 물자유형 042,IF-029,Materiel Type,direct,false,true
+OBJ-042,nomenclature,Nomenclature,string,전술통신 배터리 팩,전술통신 배터리 팩,IF-029,Materiel Type,direct,true,true
+OBJ-043,materiel_type_identifier,Materiel Type Identifier,string,SYN-MAT-043,합성 물자유형 043,IF-029,Materiel Type,inherited,false,true
+OBJ-043,nomenclature,Nomenclature,string,훈련용 모의탄 A형,훈련용 모의탄 A형,IF-029,Materiel Type,inherited,true,true
+OBJ-044,materiel_type_identifier,Materiel Type Identifier,string,SYN-MAT-044,합성 물자유형 044,IF-029,Materiel Type,inherited,false,true
+OBJ-044,nomenclature,Nomenclature,string,훈련용 모의탄 B형,훈련용 모의탄 B형,IF-029,Materiel Type,inherited,true,true
+OBJ-045,materiel_type_identifier,Materiel Type Identifier,string,SYN-MAT-045,합성 물자유형 045,IF-029,Materiel Type,inherited,false,true
+OBJ-045,nomenclature,Nomenclature,string,소형 정찰드론 A형,소형 정찰드론 A형,IF-029,Materiel Type,inherited,true,true
+OBJ-046,materiel_type_identifier,Materiel Type Identifier,string,SYN-MAT-046,합성 물자유형 046,IF-029,Materiel Type,inherited,false,true
+OBJ-046,nomenclature,Nomenclature,string,지상 감시레이더 B형,지상 감시레이더 B형,IF-029,Materiel Type,inherited,true,true
+OBJ-047,be_number,BE Number,string,SYN-BE-0047,합성 시설번호 0047,IF-032,Facility,direct,false,true
+OBJ-047,o_suffix,O-Suffix,string,A,구분자 A,IF-032,Facility,direct,false,true
+OBJ-047,location,Location,geohash,wy7hte5r,"합성좌표 35.965,128.215",IF-032,Facility,direct,true,true
+OBJ-047,hae_elevation_meters,HAE Elevation (meters),double,128.0,128.0m,IF-032,Facility,direct,false,true
+OBJ-047,hae_linear_error_meters,HAE Linear Error (meters),double,3.0,3.0m,IF-032,Facility,direct,false,true
+OBJ-047,msl_elevation_meters,MSL Elevation (meters),double,100.0,100.0m,IF-032,Facility,direct,false,true
+OBJ-047,msl_linear_error_meters,MSL Linear Error (meters),double,4.0,4.0m,IF-032,Facility,direct,false,true
+OBJ-047,affliation,Affliation,MIL2525 Affiliation,FRIEND,아군,IF-032,Facility,direct,true,true
+OBJ-047,allegiance,Allegiance,string,KOR-SYN,대한민국(합성),IF-032,Facility,direct,true,true
+OBJ-047,operational_status,Operational Status,string,OPERATIONAL,운용 중,IF-032,Facility,direct,true,true
+OBJ-047,function,Function,string,감시·정보융합 지원,감시·정보융합 지원,IF-032,Facility,direct,false,true
+OBJ-047,sidc,SIDC,string,SYNTH-SIDC-047,합성 군사심볼 코드 047,IF-032,Facility,direct,false,true
+OBJ-048,be_number,BE Number,string,SYN-BE-0048,합성 시설번호 0048,IF-032,Facility,direct,false,true
+OBJ-048,o_suffix,O-Suffix,string,B,구분자 B,IF-032,Facility,direct,false,true
+OBJ-048,location,Location,geohash,wydqtf2g,"합성좌표 37.718,127.168",IF-032,Facility,direct,true,true
+OBJ-048,hae_elevation_meters,HAE Elevation (meters),double,131.0,131.0m,IF-032,Facility,direct,false,true
+OBJ-048,hae_linear_error_meters,HAE Linear Error (meters),double,3.0,3.0m,IF-032,Facility,direct,false,true
+OBJ-048,msl_elevation_meters,MSL Elevation (meters),double,102.0,102.0m,IF-032,Facility,direct,false,true
+OBJ-048,msl_linear_error_meters,MSL Linear Error (meters),double,4.0,4.0m,IF-032,Facility,direct,false,true
+OBJ-048,affliation,Affliation,MIL2525 Affiliation,FRIEND,아군,IF-032,Facility,direct,true,true
+OBJ-048,allegiance,Allegiance,string,KOR-SYN,대한민국(합성),IF-032,Facility,direct,true,true
+OBJ-048,operational_status,Operational Status,string,OPERATIONAL,운용 중,IF-032,Facility,direct,true,true
+OBJ-048,function,Function,string,감시·정보융합 지원,감시·정보융합 지원,IF-032,Facility,direct,false,true
+OBJ-048,sidc,SIDC,string,SYNTH-SIDC-048,합성 군사심볼 코드 048,IF-032,Facility,direct,false,true
+OBJ-049,materiel_type_fk,Materiel Type FK,string,OBJ-041,감시드론 배터리 팩 참조,IF-033,Materiel Change Event,direct,true,true
+OBJ-049,condition,Condition,string,가용,가용,IF-033,Materiel Change Event,direct,true,true
+OBJ-049,quantity,Quantity,integer,15,15개,IF-033,Materiel Change Event,direct,true,true
+OBJ-049,organization_fk,Organization FK,string,OBJ-029,가상 제1합동감시단 참조,IF-033,Materiel Change Event,direct,false,true
+OBJ-049,named_location_fk,Named Location FK,string,OBJ-007,가상 중부전선 감시구역 A 참조,IF-033,Materiel Change Event,direct,false,true
+OBJ-049,source_system_metadata,Source System Metadata,Source System Metadata,"{""system"": ""K-Maven 합성데이터"", ""classification"": ""UNCLASSIFIED"", ""synthetic"": true}",K-Maven 합성데이터 / 비분류,IF-033,Materiel Change Event,direct,true,true
+OBJ-049,reported_at,Reported At,timestamp,2026-08-09T14:43:00,2026-08-09 14:43,IF-033,Materiel Change Event,direct,true,true
+OBJ-050,materiel_type_fk,Materiel Type FK,string,OBJ-041,감시드론 배터리 팩 참조,IF-034,Materiel Status Event,direct,true,true
+OBJ-050,condition,Condition,string,가용,가용,IF-034,Materiel Status Event,direct,true,true
+OBJ-050,quantity,Quantity,integer,15,15개,IF-034,Materiel Status Event,direct,true,true
+OBJ-050,organization_fk,Organization FK,string,OBJ-029,가상 제1합동감시단 참조,IF-034,Materiel Status Event,direct,false,true
+OBJ-050,named_location_fk,Named Location FK,string,OBJ-007,가상 중부전선 감시구역 A 참조,IF-034,Materiel Status Event,direct,false,true
+OBJ-050,source_system_metadata,Source System Metadata,Source System Metadata,"{""system"": ""K-Maven 합성데이터"", ""classification"": ""UNCLASSIFIED"", ""synthetic"": true}",K-Maven 합성데이터 / 비분류,IF-034,Materiel Status Event,direct,true,true
+OBJ-050,reported_at,Reported At,timestamp,2026-08-09T14:50:00,2026-08-09 14:50,IF-034,Materiel Status Event,direct,true,true
+OBJ-051,materiel_type_fk,Materiel Type FK,string,OBJ-041,감시드론 배터리 팩 참조,IF-035,Materiel Requirement,direct,true,true
+OBJ-051,quantity,Quantity,integer,15,15개,IF-035,Materiel Requirement,direct,true,true
+OBJ-051,organization_fk,Organization FK,string,OBJ-029,가상 제1합동감시단 참조,IF-035,Materiel Requirement,direct,false,true
+OBJ-051,named_location_fk,Named Location FK,string,OBJ-007,가상 중부전선 감시구역 A 참조,IF-035,Materiel Requirement,direct,false,true
+OBJ-051,source_system_metadata,Source System Metadata,Source System Metadata,"{""system"": ""K-Maven 합성데이터"", ""classification"": ""UNCLASSIFIED"", ""synthetic"": true}",K-Maven 합성데이터 / 비분류,IF-035,Materiel Requirement,direct,true,true
+OBJ-051,reported_at,Reported At,timestamp,2026-08-09T14:57:00,2026-08-09 14:57,IF-035,Materiel Requirement,direct,true,true
+OBJ-052,description,Description,string,가상 감시구역 부수피해 우려목록에 대한 합성 설명.,가상 감시구역 부수피해 우려목록 합성 설명,IF-036,Collateral Concern List,direct,false,true
+OBJ-054,location,Location,geohash,wy6wus11,"합성좌표 36.365,127.465",IF-038,Point-Based Collateral Concern Candidate,direct,true,true
+OBJ-055,geometry,Geometry,geoshape,"POLYGON((128.20800 35.95800,128.22800 35.95800,128.22800 35.97800,128.20800 35.97800,128.20800 35.95800))",합성 영향구역,IF-039,Geometry-Based Collateral Concern Candidate,direct,true,true
+OBJ-056,target_type,Target Type,string,이동형 군용차량,이동형 군용차량(합성),IF-040,Target Type,direct,true,true
+OBJ-057,location,Location,geohash,wydq70m4,"합성좌표 37.663,127.053",IF-041,Targetable Entity,direct,false,true
+OBJ-058,location,Location,geohash,wydmz474,"합성좌표 37.586,127.226",IF-041,Targetable Entity,direct,false,true
+OBJ-059,location,Location,geohash,wydmk2tv,"합성좌표 37.489,127.109",IF-041,Targetable Entity,direct,false,true
+OBJ-060,target_number,Target Number,string,T-SYN-060,합성 표적번호 060,IF-042,Target,direct,true,true
+OBJ-060,desired_effect,Desired Effect,string,MONITOR,추가 감시 및 행동 제한(모의),IF-042,Target,direct,false,true
+OBJ-061,target_number,Target Number,string,T-SYN-061,합성 표적번호 061,IF-042,Target,direct,true,true
+OBJ-061,desired_effect,Desired Effect,string,MONITOR,추가 감시 및 행동 제한(모의),IF-042,Target,direct,false,true
+OBJ-062,target_number,Target Number,string,T-SYN-062,합성 표적번호 062,IF-042,Target,direct,true,true
+OBJ-062,desired_effect,Desired Effect,string,MONITOR,추가 감시 및 행동 제한(모의),IF-042,Target,direct,false,true
+OBJ-063,change_effect_level,Change Effect Level,string,SIGNIFICANT,유의미한 변화,IF-043,Change Assessment,direct,true,true
+OBJ-063,time,Time,timestamp,2026-08-09T16:21:00,2026-08-09 16:21,IF-043,Change Assessment,direct,true,true
+OBJ-063,confidence_level,Confidence Level,string,HIGH,높음,IF-043,Change Assessment,direct,true,true
+OBJ-063,location,Location,geohash,wy7ht22r,"합성좌표 35.950,128.200",IF-043,Change Assessment,direct,true,true
+OBJ-063,notes,Notes,string,합성 평가 결과이며 실제 작전 판단에 사용할 수 없음.,합성 평가 비고,IF-043,Change Assessment,direct,true,true
+OBJ-064,functional_effect_level,Functional Effect Level,string,DEGRADED,기능 저하(모의),IF-044,Functional Assessment,direct,true,true
+OBJ-064,time,Time,timestamp,2026-08-09T16:28:00,2026-08-09 16:28,IF-044,Functional Assessment,direct,true,true
+OBJ-064,confidence_level,Confidence Level,string,HIGH,높음,IF-044,Functional Assessment,direct,true,true
+OBJ-064,location,Location,geohash,wydqmrtg,"합성좌표 37.703,127.153",IF-044,Functional Assessment,direct,true,true
+OBJ-064,notes,Notes,string,합성 평가 결과이며 실제 작전 판단에 사용할 수 없음.,합성 평가 비고,IF-044,Functional Assessment,direct,true,true
+OBJ-065,has_collateral_damage,Has Collateral Damage,Assessment Outcome,NO,부수피해 없음(모의),IF-045,Collateral Damage Assessment,direct,true,true
+OBJ-065,damage_estimate,Damage Estimate,string,관측된 부수피해 없음,관측된 부수피해 없음,IF-045,Collateral Damage Assessment,direct,true,true
+OBJ-065,timestamp,Timestamp,timestamp,2026-08-09T16:35:00,2026-08-09 16:35,IF-045,Collateral Damage Assessment,direct,true,true
+OBJ-065,confidence_level,Confidence Level,Assessment Confidence Level,HIGH,높음,IF-045,Collateral Damage Assessment,direct,true,true
+OBJ-065,notes,Notes,string,합성 평가 결과이며 실제 작전 판단에 사용할 수 없음.,합성 평가 비고,IF-045,Collateral Damage Assessment,direct,false,true
+OBJ-066,confidence_level,Confidence Level,string,HIGH,높음,IF-046,Munition Effectiveness Assessment,direct,true,true
+OBJ-066,time,Time,timestamp,2026-08-09T16:42:00,2026-08-09 16:42,IF-046,Munition Effectiveness Assessment,direct,true,true
+OBJ-066,scope,Scope,string,모의 효과수단 영향 범위,모의 효과수단 영향 범위,IF-046,Munition Effectiveness Assessment,direct,true,true
+OBJ-066,estimated_location,Estimated Location,geohash,wydmz4v7,"합성좌표 37.589,127.229",IF-046,Munition Effectiveness Assessment,direct,false,true
+OBJ-066,did_weapon_strike,Did Weapon Strike,string,SIMULATED_YES,모의 명중,IF-046,Munition Effectiveness Assessment,direct,false,true
+OBJ-066,was_weapon_effective,Was Weapon Effective,string,SIMULATED_PARTIAL,모의 부분 효과,IF-046,Munition Effectiveness Assessment,direct,false,true
+OBJ-066,notes,Notes,string,합성 평가 결과이며 실제 작전 판단에 사용할 수 없음.,합성 평가 비고,IF-046,Munition Effectiveness Assessment,direct,false,true
+OBJ-067,serviced,Serviced,boolean,true,조치 수행됨(모의),IF-047,Serviced Assessment,direct,true,true
+OBJ-068,scheduled_start_time,Scheduled Start Time,timestamp,2026-08-09T16:56:00,2026-08-09 16:56,IF-019,Operation,inherited,true,true
+OBJ-068,scheduled_end_time,Scheduled End Time,timestamp,2026-08-09T20:56:00,2026-08-09 20:56,IF-019,Operation,inherited,true,true
+OBJ-068,actual_start_time,Actual Start Time,timestamp,2026-08-09T17:01:00,2026-08-09 17:01,IF-019,Operation,inherited,false,true
+OBJ-068,actual_end_time,Actual End Time,timestamp,2026-08-09T20:41:00,2026-08-09 20:41,IF-019,Operation,inherited,false,true
+OBJ-069,scheduled_start_time,Scheduled Start Time,timestamp,2026-08-09T17:03:00,2026-08-09 17:03,IF-019,Operation,inherited,true,true
+OBJ-069,scheduled_end_time,Scheduled End Time,timestamp,2026-08-09T21:03:00,2026-08-09 21:03,IF-019,Operation,inherited,true,true
+OBJ-069,actual_start_time,Actual Start Time,timestamp,2026-08-09T17:08:00,2026-08-09 17:08,IF-019,Operation,inherited,false,true
+OBJ-069,actual_end_time,Actual End Time,timestamp,2026-08-09T20:48:00,2026-08-09 20:48,IF-019,Operation,inherited,false,true
+OBJ-070,valid_from,Valid From,timestamp,2026-08-09T17:10:00,2026-08-09 17:10,IF-049,"Fire Support Coordination Measure, FSCM",direct,false,true
+OBJ-070,valid_to,Valid To,timestamp,2026-08-10T01:10:00,2026-08-10 01:10,IF-049,"Fire Support Coordination Measure, FSCM",direct,false,true
+OBJ-070,active,Active,boolean,true,활성,IF-049,"Fire Support Coordination Measure, FSCM",direct,true,true
+OBJ-070,description,Description,string,가상 비사격구역 FSCM-101에 대한 합성 설명.,가상 비사격구역 FSCM-101 합성 설명,IF-049,"Fire Support Coordination Measure, FSCM",direct,false,true
+OBJ-070,type,Type,FSCM Type,RESTRICTIVE,제한형,IF-049,"Fire Support Coordination Measure, FSCM",direct,true,true
+OBJ-070,shape,Shape,FSCM Shape,POLYGON,폴리곤,IF-049,"Fire Support Coordination Measure, FSCM",direct,true,true
+OBJ-070,identity,Identity,FSCM Identity,FRIEND,아군,IF-049,"Fire Support Coordination Measure, FSCM",direct,true,true
+OBJ-070,floor_altitude_meters,Floor Altitude (meters),double,0.0,0m,IF-049,"Fire Support Coordination Measure, FSCM",direct,false,true
+OBJ-070,ceiling_altitude_meters,Ceiling Altitude (meters),double,1500.0,"1,500m",IF-049,"Fire Support Coordination Measure, FSCM",direct,false,true
+OBJ-070,anchor_points,Anchor Points,list<geohash>,"[""wy6wu1q6"", ""wy6wu7js""]",합성 기준좌표 2점,IF-049,"Fire Support Coordination Measure, FSCM",direct,true,true
+OBJ-070,unique_designation_modifier_1_t,Unique Designation Modifier 1 (T),string,가상 비사격구역 FSCM-101,가상 비사격구역 FSCM-101,IF-049,"Fire Support Coordination Measure, FSCM",direct,true,true
+OBJ-070,distance_modifier_am,Distance Modifier (AM),list<double>,"[500.0, 1000.0]","500m / 1,000m",IF-049,"Fire Support Coordination Measure, FSCM",direct,true,true
+OBJ-070,intersection_geometry,Intersection Geometry,geoshape,"POLYGON((127.43800 36.33800,127.46200 36.33800,127.46200 36.36200,127.43800 36.36200,127.43800 36.33800))",합성 교차영역,IF-049,"Fire Support Coordination Measure, FSCM",direct,true,true
+OBJ-072,priority,Priority,integer,1,1순위,IF-051,Target Priority,direct,true,true
+OBJ-073,priority,Priority,integer,2,2순위,IF-051,Target Priority,direct,true,true
+OBJ-075,effectpriority,effectPriority,integer,1,1순위,IF-053,Attack Guidance,direct,true,true
+OBJ-075,desired_effect,Desired Effect,Kinetic Effect,MONITOR,추가 감시 및 행동 제한(모의),IF-053,Attack Guidance,direct,true,true
+OBJ-077,accuracy_meters,Accuracy (meters),integer,100,100m 이하,IF-055,Target Selection Standard,direct,true,true
+OBJ-077,timeliness_seconds,Timeliness (seconds),integer,300,300초 이내,IF-055,Target Selection Standard,direct,true,true
+OBJ-077,mobility,Mobility,Mobility,MOVABLE,이동형,IF-055,Target Selection Standard,direct,false,true
+OBJ-078,area,Area,geoshape,"POLYGON((127.43300 36.33300,127.47300 36.33300,127.47300 36.37300,127.43300 36.37300,127.43300 36.33300))",합성 표적화 구역,IF-056,Targeting Area,direct,true,true
+OBJ-081,scheduled_start_time,Scheduled Start Time,timestamp,2026-08-09T18:27:00,2026-08-09 18:27,IF-019,Operation,inherited,true,true
+OBJ-081,scheduled_end_time,Scheduled End Time,timestamp,2026-08-09T22:27:00,2026-08-09 22:27,IF-019,Operation,inherited,true,true
+OBJ-081,actual_start_time,Actual Start Time,timestamp,2026-08-09T18:32:00,2026-08-09 18:32,IF-019,Operation,inherited,false,true
+OBJ-081,actual_end_time,Actual End Time,timestamp,2026-08-09T22:12:00,2026-08-09 22:12,IF-019,Operation,inherited,false,true
+OBJ-082,intended_effect,Intended Effect,string,상황 불확실성 감소 및 추가 감시,상황 불확실성 감소 및 추가 감시,IF-060,Target Effect Solution,direct,false,true
+OBJ-083,intended_effect,Intended Effect,string,상황 불확실성 감소 및 추가 감시,상황 불확실성 감소 및 추가 감시,IF-060,Target Effect Solution,direct,false,true
+OBJ-086,round_count,Round Count,integer,1,모의 1발,IF-062,Aimpoint Weapon Employment,direct,false,true
+OBJ-086,aimpoint_location,Aimpoint Location,geohash,wy6wu66t,"합성좌표 36.356,127.456",IF-062,Aimpoint Weapon Employment,direct,true,true
+OBJ-086,aimpoint_elevation_hae,Aimpoint Elevation (HAE),double,120.0,120m,IF-062,Aimpoint Weapon Employment,direct,false,true
+OBJ-086,aimpoint_elevation_msl,Aimpoint Elevation (MSL),double,95.0,95m,IF-062,Aimpoint Weapon Employment,direct,false,true
+OBJ-086,aimpoint_elevation_linear_error,Aimpoint Elevation Linear Error,double,4.0,4m,IF-062,Aimpoint Weapon Employment,direct,false,true
+OBJ-086,aimpoint_location_circular_error,Aimpoint Location Circular Error,double,25.0,25m,IF-062,Aimpoint Weapon Employment,direct,false,true

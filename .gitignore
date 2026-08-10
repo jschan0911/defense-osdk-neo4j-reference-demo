@@ -1,0 +1,6 @@
+.env
+runtime/logs/*
+!runtime/logs/.gitkeep
+*.DS_Store
+__pycache__/
+*.pyc
